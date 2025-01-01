@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adaptive Learning</title>
+
+<link rel="stylesheet" href="../../css/basic.css" type="text/css">
+ <link rel="stylesheet" href="../../css/index.css" type="text/css">
+  <link rel="stylesheet" href="../../css/headerfooter.css" type="text/css"> 
+   <link rel="stylesheet" href="../../css/indexbackimg.css" type="text/css">
+<link rel="stylesheet" href="../../css/basic.css" type="text/css">
+</head>
+<body>
+
+<header>
+	<div class="n-headerP innerpage-header" id="_globalNav">
+	<div class="n-logo" align="center" style=" margin-bottom: 20px; ">
+				<h1 style="color: white; font-family: cursive; font-size: 35px">Adaptive<span style="color: orange">{Learning}</span></h1>
+			</div>
+			</div><div class="n-lognSgnBx">
+			<span class="ask-shiksha"><a href="#"
+					ga-page="gnb" ga-attr="GNB_OPEN_STATE" ga-optlabel="ASK_GNB"
+					title="Get answers from current students, alumni &amp; our experts"><i
+						class="icons ic_ask-shiksha"></i><a href="/Careear_GS/jsp/studentprofile.jsp"	action="Profile">Profile</a></span> <span class="n-loginSgnup">
+					<i class="blank-pp-icon icons"></i>
+					 <a href="/Careear_GS/jsp/logout.jsp"	action="logout">Logout</a>
+					  <span class="registerPipe">
+				</span>
+			</div>
+			<p class="clr"></p>
+		
+		<div class="searchBtnOvrly"></div>
+	
+</header> 
+<div id="marquetext">
+<marquee>Career Guidance System</marquee>
+
+</div>
+
+
+<a href="#" title="Home" >
+<h1>Study Material MySQL</h1>
+</a>
+<div class="maincontainn" style="height: 90%">
+
+<p>
+<span style="font-weight: bold;">Abstract</span><br>
+
+This is the MySQL™ Reference Manual. It documents MySQL 8.0 through 8.0.23,
+ as well as NDB Cluster releases based on version 8.0 of NDB through 8.0.22-ndb-8.0.22, 
+ respectively. It may include documentation of features of MySQL versions that have not yet been released. 
+ For information about which versions have been released, see the MySQL 8.0 Release Notes.
+<br></p>
+<iframe style="margin-left: 10%" width="80%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLmMuCN70TVpnji9W7X6bcM-5mI76Qq0dg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+<span style="font-weight: bold;">
+-------------- CREATING A DATABASE ----------------------</span><br>
+show databases;
+CREATE DATABASE MysqlDemo;
+<br><span style="font-weight: bold;">
+-------------- USE DATABASE ----------------------</span><br>
+USE  MysqlDemo;
+<br><span style="font-weight: bold;">
+-------------- CREATING A TABLE ----------------------</span><br>
+CREATE TABLE Student(id int,name varchar(30));
+
+CREATE TABLE Student(id int,rollno int,sname varchar(30),addr varchar(50),mob varchar(10));
+<br><span style="font-weight: bold;">
+-------------- DELETE TABLE ----------------------</span><br>
+DROP TABLE student;
+<br><span style="font-weight: bold;">
+-------------- DELETE DATABASE----------------------</span><br>
+DROP DATABASE MysqlDemo;
+<br><span style="font-weight: bold;">
+-------------- INSERT ----------------------</span><br>
+INSERT student values(1,1001,'SHAILESH','YAVATAMAL','7895645415');
+INSERT student values(2,1002,'pravanv','puna',null);
+INSERT student values(2,null,'pravanv','puna',null);
+INSERT student(rollno,sname, addr,mob)values(1004,'vinay','amravti','7896545123125');
+<br><span style="font-weight: bold;">
+-------------- SELECT ----------------------</span><br>
+select * from student;
+select * from student where id=1 or rollno=1001;
+select id from student ;
+<br><span style="font-weight: bold;">
+-------------- UPADTE ----------------------</span><br>
+
+Update student SET id=4 where rollno=1004;<br>
+Update student SET id=2 where mob='7896545852';<br>
+Update student SET mob='7896545852' ,rollno=1002 where  id=2;
+<br><span style="font-weight: bold;">
+-------------- DELETE ROW----------------------</span><br>
+DELETE from student where id=2;
+<br>
+<a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html"> <span style="font-weight: bold;">More </span></a>
+</p>
+
+</div>
+
+
+<div class="footer">
+<h3>Site Devloped By Bhushan Warfade</h3>
+<h5>All &copy  Right Of SR Tech</h5>
+</div>
+
+</body>
+</html>

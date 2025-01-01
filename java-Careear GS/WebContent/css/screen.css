@@ -1,0 +1,61 @@
+
+@media screen and (max-width:920px)
+{
+	#login_fill
+{
+
+	margin-left:10%;
+	margin-top:10%;
+	height:300px;
+	width:80%;
+background-color:red;
+	
+	
+	
+}
+}
+@media screen and (max-width:620px)
+{
+	#login_fill
+{
+
+	margin-left:10%;
+	margin-top:10%;
+	height:300px;
+	width:80%;
+background-color:green;
+	
+	
+	
+}
+}
+@media screen and (max-width:320px)
+{
+	#login_fill
+{
+
+	margin-left:10%;
+	margin-top:10%;
+	height:600px;
+	width:80%;
+
+	background-color:#ff00ff;
+	
+	
+}
+}
+@media screen and (max-width:220px)
+{
+	#login_fill
+{
+
+	margin-left:10%;
+	margin-top:10%;
+	height:300px;
+	width:80%;
+
+	background-color:yellow;
+	
+	
+}
+}
