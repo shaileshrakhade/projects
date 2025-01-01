@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-mital website DDJWLS",
+      "appliesTo": "mital website DDJWLS/",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs"
+    Inherits="Admin_AdminMaster" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%--<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+  --%>
+<%@ Register Src="LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="AdminStyleSheet.css" type="text/css" />
+</head>
+<body class="bodystyle" style="border: 0; border-collapse: collapse; top: 0; text-align: center">
+    <form id="form1" runat="server" style="width: 950px; text-align: center">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td style="width: 100%; height: 57px;">
+                <table border="0" height="55px" cellpadding="0" cellspacing="0" style="border: 1px solid;
+                    width: 100%" bordercolor="black">
+                    <tr>
+                        <td width="100%" style="height: 54px">
+                            <table border="0" cellpadding="0" height="100%" cellspacing="0" style="border-collapse: collapse"
+                                bordercolor="#111111" width="100%">
+                                <tr>
+                                    <td width="72%" style="font-weight: bold; font-size: 20px; color: #86264a; font-family: Verdana;
+                                        text-align: left" class="headertitle">
+                                        &nbsp;&nbsp;DD Jewellers Administrator Panel
+                                    </td>
+                                    <td width="28%" valign="bottom" colspan='2'>
+                                        <table height="100%" width="100%">
+                                            <tr>
+                                                <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                                                    <ContentTemplate>
+                                                        <td height="18px" style="vertical-align: bottom; text-align: center">
+                                                            <asp:Label ID="lblDate" runat="server" Text="Label"></asp:Label>
+                                                        </td>
+                                                    </ContentTemplate>
+                                                </asp:UpdatePanel>
+                                            </tr>
+                                            <tr>
+                                                <td height="34px" style="vertical-align: bottom; text-align: left">
+                                                    <a href="Home.aspx" class="headerLink">Admin&nbsp;Home</a> |
+                                                    <asp:LinkButton ID="lnkLogOut" CssClass="headerLink" runat="server" OnClick="lnkLogOut_Click">Log&nbsp;Out</asp:LinkButton>
+                                                    | <a href="../Home.aspx" class="headerLink" style="vertical-align: bottom; text-align: left">
+                                                        Store&nbsp;Home</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+      <td style="width:100%; background-color:#989FBB">
+      <img border="0" src="../Images/AdminMaster/trans.gif" width="1" height="1"></td>
+    </tr>-->
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 10px; width: 100%">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100%;">
+                <table cellpadding="0" cellspacing="0" style="width: 900px; margin-left: 12px; margin-right: 12px">
+                    <tr>
+                        <td style="width: 175px; height: 375px; vertical-align: top; text-align: left; margin-left: 12px;
+                            margin-right: 12px">
+                            &nbsp; &nbsp;
+                            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                <ContentTemplate>
+                                    <uc1:LeftMenu ID="LeftMenu1" runat="server" />
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                        <td valign="top" style="height: 375px; vertical-align: top; width: 1px;">
+                            <img src="../Images/AdminMaster/spacer.gif" width="5" height="1" alt="" />&nbsp;
+                        </td>
+                        <td valign="top" align="left" style="width: 725px; vertical-align: top; left: 0;
+                            text-align: left; margin-left: 12px">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100%; height: 45px;">
+                <!--  <table cellspacing="0" cellpadding="0" style="background-color:#9471B3; width:100%; border:0px" >
+	  <tr>
+	  <td colspan="3" bgcolor="#9471B3">
+	  <img src="../Images/AdminMaster/trans.gif" width="5" height="1">
+	  </td>
+	  </tr>
+      </table>-->
+                <table border="0" cellspacing="0" cellpadding="0" style="width: 100%">
+                    <tr align="center" height="16px">
+                        <td width="100%" class="Footer">
+                            <a href="Home.aspx" class="footerLink">Admin Home</a> | <a href="../login1.aspx"
+                                class="footerLink">Log Out</a> | <a href="../Home.aspx" class="footerLink">Store Home</a>
+                        </td>
+                    </tr>
+                    <tr align="center" height="16px">
+                        <td width="100%" class="Footer" style="height: 16px">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

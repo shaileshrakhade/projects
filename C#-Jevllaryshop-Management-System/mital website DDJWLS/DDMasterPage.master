@@ -1,0 +1,199 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DDMasterPage.master.cs"
+    Inherits="DDMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>D D Jewellers</title>
+    <link href="Admin/AdminStyleSheet.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#000000" style="border: 0; border-top: 0; text-align: center;">
+    <form id="form1" runat="server" style="width: 900px;">
+    <div align="center" style="height: 246px">
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="1">
+            <tr bgcolor="#000000" bordercolor="#000000">
+                <td align="center" colspan="1" style="width: 200px">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/finallogo.JPG" Width="179px" />
+                </td>
+                <td align="center" colspan="2" style="vertical-align: bottom">
+                    <table>
+                        <tr>
+                            <td style="width: 154px; height: 19px;" align="center">
+                                &nbsp;<asp:HyperLink ID="HyperLinkcart" runat="server" BackColor="Transparent" Font-Bold="True"
+                                    Font-Names="Verdana" Font-Size="12px" ForeColor="White" NavigateUrl="~/Add_Cart.aspx"
+                                    Font-Underline="False">Cart( 0 Item)</asp:HyperLink>
+                            </td>
+                            <td style="width: 132px; height: 19px;" align="right">
+                                <asp:Label ID="lblwelcome" runat="server" BackColor="Transparent" Font-Names="Verdana"
+                                    Font-Size="12px" ForeColor="White" Visible="False" Font-Bold="True">WelCome</asp:Label>
+                            </td>
+                            <td style="width: 135px; height: 19px;" align="left">
+                                <asp:Label ID="lblusername" runat="server" BackColor="Transparent" Font-Names="Verdana"
+                                    Font-Size="12px" ForeColor="White" Visible="False" Font-Bold="True"></asp:Label>
+                            </td>
+                            <td style="width: 85px; height: 19px;">
+                                <asp:LinkButton ID="LinkButton2" runat="server" BackColor="Transparent" Font-Names="Verdana"
+                                    Font-Size="12px" ForeColor="White" OnClick="LinkButton1_Click" Visible="False"
+                                    Font-Bold="True">LogOut</asp:LinkButton>
+                            </td>
+                            <td style="width: 180px; height: 19px;" align="center">
+                                <asp:Label ID="lbldate" runat="server" BackColor="Transparent" Font-Names="Verdana"
+                                    Font-Size="12px" ForeColor="White" Font-Bold="True"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr bordercolor="#12172A" bgcolor="#000000">
+                <td background="Images/imag1.JPG" style="width: 196px; height: 200px;">
+                    <div align="center">
+                        <table width="200" border="0" style="height: 195px">
+                            <tr>
+                                <td align="center" style="width: 200px">
+                                    <asp:HyperLink ID="HyperLink1" runat="server" BackColor="Transparent" ForeColor="White"
+                                        NavigateUrl="~/Home.aspx" Font-Names="Verdana" Font-Bold="True" Font-Size="12px"
+                                        Font-Underline="False">HOME PAGE</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width: 200px">
+                                    <asp:HyperLink ID="HyperLink3" runat="server" BackColor="Transparent" ForeColor="White"
+                                        NavigateUrl="~/Specials.aspx" Font-Names="Verdana" Font-Bold="True" Font-Size="12px"
+                                        Font-Underline="False">SPECIALS</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width: 200px">
+                                    <asp:HyperLink ID="HyperLinkaboutus" runat="server" BackColor="Transparent" ForeColor="White"
+                                        NavigateUrl="~/About_Us.aspx" Font-Names="Verdana" Font-Bold="True" Font-Size="12px"
+                                        Font-Underline="False">ABOUT US</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width: 200px">
+                                    <asp:HyperLink ID="HyperLinklogin" runat="server" BackColor="Transparent" ForeColor="White"
+                                        Font-Names="Verdana" Font-Bold="True" Font-Size="12px" Font-Underline="False"
+                                        NavigateUrl="~/login1.aspx">LOGIN/MY ACCOUNT</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width: 200px;">
+                                    <asp:HyperLink ID="HyperLink6" runat="server" BackColor="Transparent" ForeColor="White"
+                                        NavigateUrl="~/Contact_Us.aspx" Font-Names="Verdana" Font-Bold="True" Font-Size="12px"
+                                        Font-Underline="False">CONTACT US</asp:HyperLink>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td style="width: 83%; height: 200px;">
+                    <div align="right">
+                        <img src="images/main.JPG" width="100%" style="height: 201px"></div>
+                </td>
+            </tr>
+            <tr bordercolor="#000000" bgcolor="#000000">
+                <td colspan="2" style="height: 51px">
+                    <table width="100%">
+                        <tr>
+                            <td bordercolor="#000000" bgcolor="#000000" style="vertical-align: top; text-align: center;
+                                width: 100%; height: 234px;">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    &nbsp;
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <%--<tr bgcolor="#000000"> 
+    <td colspan="2">
+    <div align="center"><strong><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif">&copy; Copyright 
+     2010 Designed by Prognosyz</font></strong></div></td>
+  </tr>--%>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head runat="server">
+    <title>demo Prognosyz</title>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000">
+<form id="form1" runat="server">
+<table width="85px" border="0" align="center" cellpadding="0" cellspacing="1" bordercolor="#111629" bgcolor="#111629">
+  <tr bordercolor="#111629" bgcolor="#111629">
+    <td colspan="2"><font color="#101324"></font></td>
+  </tr>
+  <tr bordercolor="#111629" bgcolor="#111629">
+    <td colspan="2" style="height: 19px"><font color="#101324">&nbsp;</font></td>
+  </tr>
+  <tr bordercolor="#12172A" bgcolor="#111629">
+    <td background="Images/left11.JPG" style="width: 26%"><div align="center">
+      <table width="200" border="0" style="height:238px">
+          <tr>
+            <td width="154" style="height:5px" align="center"><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif"><strong><a href= "Home.aspx" style="color: #cccccc">HOME PAGE </a></strong></font></td>
+          </tr>
+          <tr>
+            <td width="154" style="height: 10px" align="center"><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif"><strong><a href="Order.aspx" style="color: #cccccc">NEW PRODUCTS </a></strong></font></td>
+          </tr>
+          <tr>
+            <td width="154" style="height: 5px"  align="center"><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif"><strong><a href=Specials.aspx style=" color: #cccccc"> SPECIALS</a></strong></font></td>
+          </tr>
+          <tr>
+            <td width="154" style="height: 5px" align="center"><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif"><strong><a href="My_Account.aspx" style=" color: #cccccc">MY ACCOUNT</a> </strong></font></td>
+          </tr>
+          <tr>
+            <td width="154" style="height: 5px" align="center"><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif"><strong><a href=Contact_Us.aspx style=" color: #cccccc">CONTACT US </a></strong></font></td>
+           </tr> <tr>
+            <td width="154" style="height:5px" align="center"><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif"><strong><a href=login.aspx style=" color: #cccccc">LOGIN </a></strong></font></td>
+          </tr>
+          
+      </table>
+    </div></td>
+   <td style="width: 85%"><div align="right"><img src="images/main.JPG" width="566" height="200"></div></td>
+  </tr>
+  <tr bordercolor="#111629" bgcolor="#111629"> 
+   
+  </tr>
+  <tr> 
+    <td colspan="2">
+   <table width="99%" border="0" cellpadding="0" cellspacing="1" bordercolor="#111629" bgcolor="#111629">
+        <tr> 
+          <%--<td width="26%" bgcolor="#111629" >
+          
+          
+          
+        
+          
+          
+          </td>--%>
+<%--</tr>
+        <tr>
+            <td>
+            </td>
+        </tr>
+      </table>  
+      </td>
+  </tr>
+
+        <tr>  
+           
+           <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+               </asp:contentplaceholder>
+               </tr>
+  <tr bgcolor="#000000"> 
+    <td colspan="2"><div align="center"><strong><font color="#CCCCCC" size="2" face="Arial, Helvetica, sans-serif">Copyright 
+    2007 Designed by Prognosyz Technologies</font></strong></div></td>
+  </tr>
+  </table>
+</form>
+</body>
+</html>--%>

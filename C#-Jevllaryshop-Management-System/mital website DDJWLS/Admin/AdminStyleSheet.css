@@ -1,0 +1,94 @@
+﻿
+
+.nothing {}
+
+
+.row1 {background-color: #F7F7F7}
+.row2 {background-color: #FFFFFF}
+.row3 {background-color: #999999}
+.row4 {background-color: #9471B3}
+.rowPartial {background-color: #99FFAC}
+.rowPartial2 {background-color: #99B6FF}
+
+
+/* -------------- GENERAL FONT SETTINGS -------------- */
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #333333;}
+td {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #333333}
+
+
+.heading {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #48A93F}
+.heading1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #86264A}
+.bodyTextBold {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #86264A}
+.bodyTextError {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FF0000}
+.bodyTextSmall {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; color: #8564A3}
+
+.MainTitle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16pt; font-weight: bold; color: #8564A3}
+.BodyTitle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: bold; color: #8564A3}
+.SubTitle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #8564A3}
+
+.noUnderline {text-decoration: none; color: #FFFFFF}
+.noUnderlineL2 {text-decoration: none; color: #8564A3}
+
+
+
+/* -------------- MISC -------------- */
+.whiteBox {background-color: #FFFFFF}
+.grayBox {background-color: #CECECE}
+.cellError {background-color: #FF9999}
+
+
+
+/* -------------- LEFT MENU -------------- */
+.level1Box {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #FFFFFF; background-color: #86264A}
+.level2Box {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: normal; color: #666666; background-color: #FFFFFF}
+
+
+
+/* -------------- HEADER -------------- */
+.headerLink {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #333333; background-color: #F3F2F2; text-decoration: none}
+.headerRow {background-color: #A6ADC7}
+.headerMenuRow {background-color: #F3F2F2}
+.headerMenuSeparator {background-color: #CECECE}
+
+
+/* -------------- FOOTER -------------- */
+.Footer {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #FFFFFF; text-decoration: none; background-color: #9471B3}
+.footerLink {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; text-decoration: none; color: #FFFFFF}
+
+
+
+/* -------------- NAV BOXES -------------- */
+.MenuTabNormal {background-color: #B69FC9}
+.MenuTabSelect {background-color: #86264A}
+.MenuTabTitle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.MenuTabRed {background-color: #FF0000}
+.MenuTitle {font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 11pt; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.MenuFolder {font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 8pt; font-weight: bold; color: #FBFBFB; text-decoration: none}
+
+
+/* ------- CHECKOUT PAGES-------------- */
+.checkoutBodyText {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt}
+.checkoutBodyTextBold {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+.checkoutBodyTextError {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; color: #FF0000}
+.checkoutBodyTextSmall {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.checkoutTable {background-color: #999999; width: 450px}
+.checkoutTableAdmin {background-color: #CCCCCC; border: 1px #CCCCCC; width: 550px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px}
+.checkoutHeadingRow {background-color: #CCCCCC}
+.checkoutRow1 {background-color: #F0F0F0; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px}
+.checkoutRow2 {background-color: #FFFFFF; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px}
+.checkoutSuccess {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #33CC00}
+.checkoutFail {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #FF0000}
+
+.footerLink
+{
+		font-size: 12px;
+	color: #CCCCCC;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+.font
+{
+	font-family: Verdana;
+}
