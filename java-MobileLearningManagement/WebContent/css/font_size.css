@@ -1,0 +1,82 @@
+
+
+input
+{
+	font-size:15px;
+	
+}
+input[type="text"]
+{
+	width:200px;
+	height:30px;
+}
+input[type="number"]
+{
+	width:200px;
+	height:30px;
+}
+input[type="password"]
+{
+	width:200px;
+	height:30px;
+}
+input[type="textarea"]
+{
+	width:200px;
+	height:30px;
+}
+input[type="radio"]
+{
+	width:50px;
+	height:20px;
+}
+input[type="email"]
+{
+	width:50px;
+	height:20px;
+}
+input[type="submit"]
+{
+	width:150px;
+	height:40px;
+	color:black;
+	background-color:white;
+}
+input[type="submit"]:hover
+{
+	color:white;
+	background-color:black;
+}
+input[type="button"]
+{
+	width:70px;
+	height:30px;
+	background-color:#a8a8ff;
+	color:white;
+}
+input[type="button"]:hover
+{
+	color:red;
+	background-color:#808080;
+}
+input[type="date"]
+{
+	width:200px;
+	height:30px;
+}
+select
+{
+	width:200px;
+	height:33px;
+}
+label
+{
+	font-size:20px;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+}
