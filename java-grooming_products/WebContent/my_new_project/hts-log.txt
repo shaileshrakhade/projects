@@ -1,0 +1,487 @@
+HTTrack3.49-2 launched on Tue, 19 Nov 2019 10:45:14 at https://www.beardo.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.beardo.in/ -%L https://www.beardo.in/ -O "/home/dhawal/websites/my new project" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:45:14	Error: 	Could not include URL list: https://www.beardo.in/
+11:18:54	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://www.facebook.com/robots.txt (from https://www.beardo.in/)
+11:18:54	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.facebook.com/tr?id=1123583460985649&ev=PageView&noscript=1 (from https://www.beardo.in/)
+11:54:33	Warning: 	Found for https://www.beardo.in/account/
+11:54:33	Warning: 	File has moved from https://www.beardo.in/account/ to /login
+11:54:42	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.facebook.com/tr?id=1123583460985649&ev=PageView&noscript=1 (from https://www.beardo.in/)
+11:56:44	Error: 	"Not Found" (404) at link https://www.beardo.in/POST (from https://www.beardo.in/categories)
+11:57:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.beardo.in/skin/beardo-the-acne-control-neem-combo-for-men/8906084791099--neemcombo (from https://www.beardo.in/concerns/acne)
+11:57:50	Warning: 	Moved Permanently for www.beardo.in/robots.txt
+11:57:50	Warning: 	File has moved from www.beardo.in/robots.txt to https://www.beardo.in:443/robots.txt
+11:57:50	Warning: 	Moved Permanently for www.beardo.in/terms-conditions/
+11:57:50	Warning: 	File has moved from www.beardo.in/terms-conditions/ to https://www.beardo.in:443/terms-conditions/
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/oil/POST (from https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/fragrance/POST (from https://www.beardo.in/fragrance/beardo-dark-side-perfume-for-men)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/hair/POST (from https://www.beardo.in/hair/beardo-hair-fall-control-kit-shampoo-serum-growth-oil)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/skin/POST (from https://www.beardo.in/skin/beardo-lip-lightner-for-men)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/wax/POST (from https://www.beardo.in/wax/beardo-beard-mustache-wax-extra-strong)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/wax/beardo-beard-mustache-wax (from https://www.beardo.in/oil/beardo-mustache-growth-roll-on)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/beard/POST (from https://www.beardo.in/beard/beardo-beard-softener-for-men)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/wash/POST (from https://www.beardo.in/wash/beardo-godfather-beard-wash)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/balm/beardo-beard-balm (from https://www.beardo.in/wax/berado-mustache-beard-wax-stick)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/serum/POST (from https://www.beardo.in/serum/beardo-hair-serum)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/shampoo/POST (from https://www.beardo.in/shampoo/beardo-shampoo)
+12:32:06	Error: 	"Not Found" (404) at link https://www.beardo.in/tools/POST (from https://www.beardo.in/tools/berado-sheesham-wooden-comb)
+12:32:11	Error: 	"Not Found" (404) at link https://www.beardo.in/gift/POST (from https://www.beardo.in/gift/beardo-traveller-pouch)
+12:32:13	Error: 	"Not Found" (404) at link https://www.beardo.in/tools/beardo-neem-wooden-comb (from https://www.beardo.in/tools/bib)
+12:32:13	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://www.facebook.com/tr?id=1123583460985649&ev=PageView&noscript=1 (from https://www.beardo.in/)
+12:32:13	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.beardo.in/categories/sort (from https://www.beardo.in/categories/sort/price-high)
+12:32:13	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.beardo.in/categories/sort/POST (from https://www.beardo.in/categories/sort/price-high)
+12:32:13	Error: 	"Not Found" (404) at link https://www.beardo.in/balm/POST (from https://www.beardo.in/balm/beardo-choco-mint-lip-balm)
+12:32:21	Error: 	"Not Found" (404) at link https://www.beardo.in/lotion/POST (from https://www.beardo.in/lotion/beardo-ultraglow-all-in-1-mens-face-lotion)
+12:32:21	Error: 	"Not Found" (404) at link https://www.beardo.in/facewash/POST (from https://www.beardo.in/facewash/activated-charcoal-facewash)
+12:32:28	Error: 	"Not Found" (404) at link https://www.beardo.in/soap/POST (from https://www.beardo.in/soap/beardo-activated-charcoal-brick)
+12:32:51	Error: 	"Not Found" (404) at link https://www.beardo.in/oil/beardo-gold-oillimited-edition (from https://www.beardo.in/a-very-beardo-valentines)
+12:32:51	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-mustache-beard-wax-stick/
+12:32:51	Warning: 	File has moved from https://www.beardo.in/product/beardo-mustache-beard-wax-stick/ to https://www.beardo.in/wax/berado-mustache-beard-wax-stick?q=product/beardo-mustache-beard-wax-stick/
+12:32:55	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-mustache-wax-50g/
+12:32:55	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-mustache-wax-50g/ to https://www.beardo.in/wax/beardo-beard-mustache-wax?q=product/beardo-beard-mustache-wax-50g/
+12:32:56	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-balm-50g-makes-beard-soft-non-itchy/
+12:32:56	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-balm-50g-makes-beard-soft-non-itchy/ to https://www.beardo.in/balm/beardo-beard-balm?q=product/beardo-beard-balm-50g-makes-beard-soft-non-itchy/
+12:33:00	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-shisham-wooden-comb/
+12:33:00	Warning: 	File has moved from https://www.beardo.in/product/beardo-shisham-wooden-comb/ to https://www.beardo.in/tools/berado-sheesham-wooden-comb?q=product/beardo-shisham-wooden-comb/
+12:33:02	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-hair-growth-oil-50ml/
+12:33:02	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-hair-growth-oil-50ml/ to https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard
+12:33:02	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-godfather-beard-lite-oil-30ml/
+12:33:02	Warning: 	File has moved from https://www.beardo.in/product/beardo-godfather-beard-lite-oil-30ml/ to https://www.beardo.in/oil/beardo-godfather-beardo-oil?q=product/beardo-godfather-beard-lite-oil-30ml/
+12:33:03	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-wash-100-mlthe-black-velvette/
+12:33:03	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-wash-100-mlthe-black-velvette/ to https://www.beardo.in/wash/beardo-the-black-velvette-wash?q=product/beardo-beard-wash-100-mlthe-black-velvette/
+12:33:05	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-shaping-and-styling-tool-comb/
+12:33:05	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-shaping-and-styling-tool-comb/ to https://www.beardo.in/tools/beard-shaping-tool?q=product/beardo-beard-shaping-and-styling-tool-comb/
+12:33:06	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-the-irish-royale-beard-oil/
+12:33:06	Warning: 	File has moved from https://www.beardo.in/product/beardo-the-irish-royale-beard-oil/ to https://www.beardo.in/oil/beardo-the-irish-royale-hair-oil?q=product/beardo-the-irish-royale-beard-oil/
+12:33:11	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-wash-100-mlthe-irish-royale/
+12:33:11	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-wash-100-mlthe-irish-royale/ to https://www.beardo.in/wash/beardo-the-irish-royale-wash?q=product/beardo-beard-wash-100-mlthe-irish-royale/
+12:33:12	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-the-classic-beard-oil/
+12:33:12	Warning: 	File has moved from https://www.beardo.in/product/beardo-the-classic-beard-oil/ to https://www.beardo.in/oil/beardo-the-classic-hair-oil?q=product/beardo-the-classic-beard-oil/
+12:33:13	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-22k-gold-limited-edition-beard-oil/
+12:33:13	Warning: 	File has moved from https://www.beardo.in/product/beardo-22k-gold-limited-edition-beard-oil/ to https://www.beardo.in/oil/beardo-gold-oillimited-edition?q=product/beardo-22k-gold-limited-edition-beard-oil/
+12:33:14	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/
+12:33:14	Warning: 	File has moved from https://www.beardo.in/product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/ to https://www.beardo.in/facewash/activated-charcoal-facewash?q=product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/
+12:33:17	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-neem-wooden-comb/
+12:33:17	Warning: 	File has moved from https://www.beardo.in/product/beardo-neem-wooden-comb/ to https://www.beardo.in/tools/berado-neem-wooden-comb?q=product/beardo-neem-wooden-comb/
+12:33:19	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-wash-100-ml-the-classic/
+12:33:19	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-wash-100-ml-the-classic/ to https://www.beardo.in/wash/beardo-the-classic-wash?q=product/beardo-beard-wash-100-ml-the-classic/
+12:33:20	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-wash-100-ml-the-old-fashioned/
+12:33:20	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-wash-100-ml-the-old-fashioned/ to https://www.beardo.in/wash/beardo-the-old-fashioned-wash?q=product/beardo-beard-wash-100-ml-the-old-fashioned/
+12:33:27	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-the-black-velvette-fragrance-hair-oil/
+12:33:27	Warning: 	File has moved from https://www.beardo.in/product/beardo-the-black-velvette-fragrance-hair-oil/ to https://www.beardo.in/oil/beardo-the-black-velvette-hair-oil?q=product/beardo-the-black-velvette-fragrance-hair-oil/
+12:33:28	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-the-old-fashioned-beard-fragrance-hair-oil/
+12:33:28	Warning: 	File has moved from https://www.beardo.in/product/beardo-the-old-fashioned-beard-fragrance-hair-oil/ to https://www.beardo.in/oil/beardo-the-old-fashioned-hair-oil?q=product/beardo-the-old-fashioned-beard-fragrance-hair-oil/
+12:33:30	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-lite-beard-and-mustache-oil-30ml/
+12:33:30	Warning: 	File has moved from https://www.beardo.in/product/beardo-lite-beard-and-mustache-oil-30ml/ to https://www.beardo.in/oil/beardo-lite-beard-oil?q=product/beardo-lite-beard-and-mustache-oil-30ml/
+12:33:31	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-hair-wax-strong-hold/
+12:33:31	Warning: 	File has moved from https://www.beardo.in/product/beardo-hair-wax-strong-hold/ to https://www.beardo.in/wax/beardo-hair-wax-strong-hold-crystal-gel-wax?q=product/beardo-hair-wax-strong-hold/
+12:33:32	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-hair-fall-control-shampoo-for-men-250ml/
+12:33:32	Warning: 	File has moved from https://www.beardo.in/product/beardo-hair-fall-control-shampoo-for-men-250ml/ to https://www.beardo.in/shampoo/beardo-shampoo?q=product/beardo-hair-fall-control-shampoo-for-men-250ml/
+12:33:33	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-holiday-gift-set/
+12:33:33	Warning: 	File has moved from https://www.beardo.in/product/beardo-holiday-gift-set/ to https://www.beardo.in/beard/holiday-gift-set-wooden-box?q=product/beardo-holiday-gift-set/
+12:33:37	Warning: 	Moved Permanently for https://www.beardo.in/product-category/beard/
+12:33:37	Warning: 	File has moved from https://www.beardo.in/product-category/beard/ to https://www.beardo.in/categories/beard?q=product-category/beard/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/beard-oil/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/beard-oil/ to https://www.beardo.in:443/product-category/beards/beard-oil/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/beard-wax-beards/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/beard-wax-beards/ to https://www.beardo.in:443/product-category/beards/beard-wax-beards/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/gift-sets/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/gift-sets/ to https://www.beardo.in:443/product-category/beards/gift-sets/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/combos/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/combos/ to https://www.beardo.in:443/product-category/beards/combos/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/beard-growth-oil-beards/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/beard-growth-oil-beards/ to https://www.beardo.in:443/product-category/beards/beard-growth-oil-beards/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/lotion/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/lotion/ to https://www.beardo.in:443/product-category/lotion/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/
+12:33:42	Warning: 	File has moved from www.beardo.in/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/ to https://www.beardo.in:443/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product/beardo-sports-active-energizing-mens-face-wash-100g/
+12:33:42	Warning: 	File has moved from www.beardo.in/product/beardo-sports-active-energizing-mens-face-wash-100g/ to https://www.beardo.in:443/product/beardo-sports-active-energizing-mens-face-wash-100g/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/
+12:33:42	Warning: 	File has moved from www.beardo.in/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/ to https://www.beardo.in:443/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/
+12:33:42	Warning: 	File has moved from www.beardo.in/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/ to https://www.beardo.in:443/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/beard-wash/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/beard-wash/ to https://www.beardo.in:443/product-category/beards/beard-wash/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/beard-combs/
+12:33:42	Warning: 	File has moved from www.beardo.in/product-category/beards/beard-combs/ to https://www.beardo.in:443/product-category/beards/beard-combs/
+12:33:42	Warning: 	Moved Permanently for www.beardo.in/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/
+12:33:42	Warning: 	File has moved from www.beardo.in/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/ to https://www.beardo.in:443/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/
+12:33:43	Error: 	"Error when decompressing" (-1) at link https://www.beardo.in/categories/sort (from https://www.beardo.in/categories/sort/price-high)
+12:33:43	Error: 	Unable to save file /home/dhawal/websites/my new project/www.beardo.in/categories/sort: Is a directory
+12:33:44	Error: 	"Not Found" (404) at link https://www.beardo.in/wax/beardo-beard-mustache-wax?q=product/beardo-beard-mustache-wax-50g/ (from https://www.beardo.in/product/beardo-beard-mustache-wax-50g/)
+12:33:44	Error: 	"Not Found" (404) at link https://www.beardo.in/balm/beardo-beard-balm?q=product/beardo-beard-balm-50g-makes-beard-soft-non-itchy/ (from https://www.beardo.in/product/beardo-beard-balm-50g-makes-beard-soft-non-itchy/)
+12:33:45	Error: 	"Not Found" (404) at link https://www.beardo.in/oil/beardo-gold-oillimited-edition?q=product/beardo-22k-gold-limited-edition-beard-oil/ (from https://www.beardo.in/product/beardo-22k-gold-limited-edition-beard-oil/)
+12:33:45	Error: 	"Not Found" (404) at link https://www.beardo.in/tools/berado-neem-wooden-comb?q=product/beardo-neem-wooden-comb/ (from https://www.beardo.in/product/beardo-neem-wooden-comb/)
+12:33:47	Error: 	"Not Found" (404) at link https://www.beardo.in/beard/holiday-gift-set-wooden-box?q=product/beardo-holiday-gift-set/ (from https://www.beardo.in/product/beardo-holiday-gift-set/)
+12:33:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/appicons/xicons-152.png.pagespeed.ic.vCjsQF5hbL.png
+12:33:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/appicons/xicons-76.png.pagespeed.ic.zixUyRyOFN.png
+12:33:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/appicons/icons-512.png
+12:33:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xlogo-white.png.pagespeed.ic.hEV7tbKVnJ.png
+12:33:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://sc-static.net/scevent.min.js
+12:33:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/appicons/xicons-120.png.pagespeed.ic.13YfGASE9J.png
+12:34:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/home-2018-05-search.png
+12:34:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xhome-2018-05-user.png.pagespeed.ic.9jLc4zJ5Pp.png
+12:34:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/home-2018-05-cart.png
+12:34:04	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.beardo.in/)
+12:34:22	Warning: 	HTML file (128445 bytes) retransferred due to lack of cache: https://www.beardo.in/categories
+12:34:26	Warning: 	HTML file (29547 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/fragrance
+12:34:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x9.png.pagespeed.ic.ibxrF8n7RQ.png
+12:35:02	Warning: 	HTML file (30697 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/turmeric-range
+12:35:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x20.png.pagespeed.ic.TunUXYHfBY.png
+12:35:05	Warning: 	HTML file (48656 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/hair
+12:35:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x17.png.pagespeed.ic.iKnEskpNeh.png
+12:35:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x15.png.pagespeed.ic.DZseQEOxY_.png
+12:35:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x11.png.pagespeed.ic.RQmjkezy0v.png
+12:35:13	Warning: 	HTML file (72665 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/skin
+12:35:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x6.png.pagespeed.ic.9gAfZzQvoG.png
+12:35:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x50.png.pagespeed.ic.k8VQSQKrYV.png
+12:35:24	Warning: 	HTML file (52368 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/combo
+12:35:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xfb.png.pagespeed.ic._uwieXgXt9.png
+12:35:26	Warning: 	HTML file (36438 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/gift
+12:35:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xinstag.png.pagespeed.ic.26ASBj8dBe.png
+12:35:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xbeard.png.pagespeed.ic.RH7Um_Jtl9.png
+12:35:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js
+12:35:33	Warning: 	HTML file (34369 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/tools
+12:35:37	Warning: 	HTML file (45057 bytes) retransferred due to lack of cache: https://www.beardo.in/concerns/hair-fall
+12:35:46	Warning: 	HTML file (41708 bytes) retransferred due to lack of cache: https://www.beardo.in/concerns/acne
+12:35:51	Warning: 	HTML file (40330 bytes) retransferred due to lack of cache: https://www.beardo.in/concerns/beard-growth
+12:35:56	Warning: 	HTML file (28792 bytes) retransferred due to lack of cache: https://www.beardo.in/community
+12:35:58	Warning: 	HTML file (31740 bytes) retransferred due to lack of cache: https://www.beardo.in/cart
+12:36:09	Warning: 	HTML file (68644 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard
+12:36:22	Warning: 	HTML file (40024 bytes) retransferred due to lack of cache: https://www.beardo.in/paypal-offers
+12:36:26	Warning: 	HTML file (56704 bytes) retransferred due to lack of cache: https://www.beardo.in/fragrance/beardo-dark-side-perfume-for-men
+12:36:29	Warning: 	HTML file (64661 bytes) retransferred due to lack of cache: https://www.beardo.in/hair/beardo-hair-fall-control-kit-shampoo-serum-growth-oil
+12:36:37	Warning: 	HTML file (62653 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-lip-lightner-for-men
+12:36:41	Warning: 	HTML file (63699 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-the-dirty-charcoal-combo
+12:37:24	Warning: 	HTML file (59594 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-body-lotion-with-argan-oil-for-men
+12:37:48	Warning: 	HTML file (59859 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-turmeric-clay-mask-for-men
+12:37:56	Warning: 	HTML file (64830 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-godfather-beardo-oil
+12:38:08	Warning: 	HTML file (63005 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-mustache-growth-roll-on
+12:38:12	Warning: 	HTML file (62887 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-argan-oil
+12:38:17	Warning: 	HTML file (66544 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-beard-softener-for-men
+12:38:22	Warning: 	HTML file (62024 bytes) retransferred due to lack of cache: https://www.beardo.in/wash/beardo-godfather-beard-wash
+12:38:28	Warning: 	HTML file (60562 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-beard-color-for-men
+12:38:32	Warning: 	HTML file (62097 bytes) retransferred due to lack of cache: https://www.beardo.in/wax/berado-mustache-beard-wax-stick
+12:38:46	Warning: 	HTML file (63382 bytes) retransferred due to lack of cache: https://www.beardo.in/wax/beardo-hair-wax-strong-hold-crystal-gel-wax
+12:38:54	Warning: 	HTML file (63952 bytes) retransferred due to lack of cache: https://www.beardo.in/shampoo/beardo-shampoo
+12:38:57	Warning: 	HTML file (62121 bytes) retransferred due to lack of cache: https://www.beardo.in/hair/beardo-black-magic-temporary-hair-color-
+12:39:02	Warning: 	HTML file (64309 bytes) retransferred due to lack of cache: https://www.beardo.in/hair/beardo-creme-power-styling-wax-
+12:39:06	Warning: 	HTML file (62136 bytes) retransferred due to lack of cache: https://www.beardo.in/tools/berado-sheesham-wooden-comb
+12:39:12	Warning: 	HTML file (64523 bytes) retransferred due to lack of cache: https://www.beardo.in/hair/beardo-keratin-shampoo-for-men
+12:39:19	Warning: 	HTML file (65444 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-activated-charcoal-peel-off-mask
+12:39:25	Warning: 	HTML file (60045 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-body-lotion-with-aloe-vera-tea-tree-oil-for-men
+12:39:29	Warning: 	HTML file (61625 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-activated-charcoal-face-scrub
+12:39:37	Warning: 	HTML file (60107 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-coffee-body-scrub-for-men
+12:39:49	Warning: 	HTML file (61566 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-de-tan-face-spa-kit-for-men
+12:39:53	Warning: 	HTML file (61816 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-insta-bright-face-combo-for-men
+12:40:26	Warning: 	HTML file (63944 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-charcoal-combo
+12:40:43	Warning: 	HTML file (55968 bytes) retransferred due to lack of cache: https://www.beardo.in/gift/beardo-traveller-pouch
+12:41:40	Warning: 	HTML file (753 bytes) retransferred due to lack of cache: https://www.beardo.in/account/
+12:41:42	Warning: 	Found for https://www.beardo.in/account/
+12:41:42	Warning: 	File has moved from https://www.beardo.in/account/ to /login
+12:41:45	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: https://www.beardo.in/pnapis/register.php
+12:41:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/js/newhome1.19.js
+12:41:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/dropdwn.png
+12:41:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xfav.png.pagespeed.ic.eJN1pa8OfG.png
+12:42:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x21.png.pagespeed.ic.jMiCk-eEaV.png
+12:42:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x14.png.pagespeed.ic.t6g_nLH1EQ.png
+12:42:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://apis.google.com/js/api:client.js
+12:42:40	Warning: 	Retry after error -2 (Receive Time Out) at link https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x700-pi2-1451.jpg (from https://www.beardo.in/)
+12:42:41	Warning: 	Retry after error -2 (Connect Time Out) at link https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x700-whatsapp-image-2018-12-11-at-42210-pm-1453.jpeg (from https://www.beardo.in/)
+12:42:42	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x700-pi4-1452.jpg (from https://www.beardo.in/)
+12:42:44	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x700-neem-scrub-2050.jpg (from https://www.beardo.in/)
+12:42:46	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x700-x700-neem-face-scrub-image-04-1997-2052.jpg (from https://www.beardo.in/)
+12:42:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xhome-2018-05-insta.png.pagespeed.ic.WZrBae8KWG.png
+12:42:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xearn-point.png.pagespeed.ic.XmdJHo2fsE.png
+12:43:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xget-discount.png.pagespeed.ic.a3G4ybDwcp.png
+12:43:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xrs.png.pagespeed.ic.q9-wsIyPNQ.png
+12:43:08	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.facebook.com/tr?id=1123583460985649&ev=PageView&noscript=1 (from https://www.beardo.in/)
+12:43:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.beardo.in/css/A.style.min.css+header.min.css+owl.carousel.min.css+owl.theme.default.min.css,Mcc.qBxRHHHQnH.css.pagespeed.cf.3tRY0_IoX3.css (from https://www.beardo.in/categories)
+12:43:10	Warning: 	HTML file (129518 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/
+12:43:18	Warning: 	HTML file (56906 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-all-rounder-combo-for-men
+12:43:33	Warning: 	HTML file (59893 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-turmeric-gel-for-men
+12:43:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://q.quora.com/_/ad/dad9b44d2c184c54a0bff9cfda058b56/pixel?tag=ViewContent&noscript=1
+12:43:41	Warning: 	HTML file (56767 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-tattoo-shiner-gel-
+12:43:52	Warning: 	Retry after error -2 (Receive Time Out) at link beardoc.s3.ap-south-1.amazonaws.com/uploads/x283-hydro-shine-gel-image-01-3415.jpg (from https://www.beardo.in/categories)
+12:43:52	Warning: 	HTML file (58480 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-the-acne-control-neem-combo-for-men
+12:43:58	Warning: 	HTML file (59388 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-turmeric-face-scrub-for-men
+12:44:04	Warning: 	HTML file (60676 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-de-tan-face-gel-for-men
+12:44:15	Warning: 	HTML file (64269 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-vitamin-c-facial-serum-for-a-brighter-and-healthier-skin
+12:44:19	Warning: 	HTML file (65940 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-hair-growth-combo-for-men
+12:44:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/js/common.js.pagespeed.jm.d2y9AWmIDg.js
+12:44:24	Warning: 	HTML file (67887 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-intimate-wash-for-men
+12:44:29	Warning: 	HTML file (65840 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-aloe-vera-gel-for-hair-face-beard
+12:44:43	Warning: 	HTML file (65527 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-the-ultimate-beard-combo
+12:44:53	Warning: 	HTML file (64728 bytes) retransferred due to lack of cache: https://www.beardo.in/balm/beardo-choco-mint-lip-balm
+12:44:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/xrruppe.png.pagespeed.ic.podcmwt4Hi.png
+12:44:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/rupee.png
+12:44:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/correct-pin.png
+12:44:59	Warning: 	HTML file (66387 bytes) retransferred due to lack of cache: https://www.beardo.in/lotion/beardo-ultraglow-all-in-1-mens-face-lotion
+12:45:05	Warning: 	HTML file (59910 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-neem-face-scrub-for-men
+12:45:14	Warning: 	HTML file (58026 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-charcoal-bodywash
+12:45:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/delivery-icon-track.png
+12:45:32	Warning: 	HTML file (58930 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-celeb-gift-set
+12:45:38	Warning: 	HTML file (64775 bytes) retransferred due to lack of cache: https://www.beardo.in/facewash/activated-charcoal-facewash
+12:45:42	Warning: 	HTML file (65212 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-caffeine-face-scrub
+12:45:49	Warning: 	HTML file (58019 bytes) retransferred due to lack of cache: https://www.beardo.in/fragrance/beardo-perfume-for-men
+12:45:53	Warning: 	HTML file (62770 bytes) retransferred due to lack of cache: https://www.beardo.in/soap/beardo-activated-charcoal-brick
+12:45:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/beardothon/beardothon_background.png
+12:45:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/beardothon/step2.png
+12:45:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/beardothon/beardothon_logo.png
+12:46:00	Warning: 	HTML file (63699 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-godfather-combo
+12:46:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/beardothon/step4.png
+12:46:05	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/beardothon/step5.png
+12:46:09	Warning: 	HTML file (62691 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-grooming-kit-for-men
+12:46:18	Warning: 	HTML file (63014 bytes) retransferred due to lack of cache: https://www.beardo.in/hair/beardo-strong-hold-hair-spray-for-men
+12:46:25	Warning: 	HTML file (62444 bytes) retransferred due to lack of cache: https://www.beardo.in/soap/beardo-deep-sea-brick-soap
+12:46:39	Warning: 	HTML file (64351 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-old-fashioned-hair-oil
+12:46:44	Warning: 	HTML file (64386 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-irish-royale-hair-oil
+12:46:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0849/4704/products/Artisera_Fine-Art_Olegraphs_Raja-Ravi-Varma-Press_Shivaji-Maharaj_2_grande.jpg?v=1488710854
+12:47:12	Warning: 	HTML file (65148 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-black-velvette-hair-oil
+12:47:18	Warning: 	HTML file (64065 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-growth-oil-mustache-growth-roll-on
+12:47:20	Warning: 	HTML file (56630 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/combo-gift-set-10ml-oil-100ml-wash-wax-stick
+12:47:25	Warning: 	HTML file (63036 bytes) retransferred due to lack of cache: https://www.beardo.in/wash/beardo-the-classic-wash
+12:47:28	Warning: 	HTML file (63285 bytes) retransferred due to lack of cache: https://www.beardo.in/wash/beardo-the-old-fashioned-wash
+12:47:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.muscleandfitness.com/sites/muscleandfitness.com/mensfitness/files/skincare-hub-wash.jpg
+12:47:54	Warning: 	HTML file (64475 bytes) retransferred due to lack of cache: https://www.beardo.in/wash/beardo-the-irish-royale-wash
+12:47:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): beardoholic.com/wp-content/uploads/2016/02/43765749_l.jpg
+12:48:00	Warning: 	HTML file (64438 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-classic-hair-oil
+12:48:07	Warning: 	HTML file (58171 bytes) retransferred due to lack of cache: https://www.beardo.in/wash/beardo-the-black-velvette-wash
+12:48:13	Warning: 	HTML file (62097 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-the-old-fashioned-beard-oil-30ml-beard-wash-combo-100-ml
+12:48:39	Warning: 	file not stored in cache due to bogus state (broken size, expected 217 got 0): images.rapgenius.com/f15ff3230dffba1a0b4f177f598ad99f.500x595x1.jpg
+12:48:43	Warning: 	HTML file (61310 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-the-irish-royale-beard-oil-30ml-beard-wash-combo-100-ml
+12:48:54	Warning: 	HTML file (61180 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-the-classic-beard-oil-30-ml-beard-wash-combo-100-ml
+12:49:05	Warning: 	HTML file (61695 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/beardo-the-black-velvette-beard-oil-30ml-beard-wash-combo-100-ml
+12:49:09	Warning: 	HTML file (62314 bytes) retransferred due to lack of cache: https://www.beardo.in/tools/compact-sheesham-comb
+12:49:15	Warning: 	HTML file (59539 bytes) retransferred due to lack of cache: https://www.beardo.in/tools/mooch-swag-mug
+12:49:21	Warning: 	HTML file (64244 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-lite-beard-oil
+12:49:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.beardo.in/images/offerbadges/x10.png.pagespeed.ic.Y2sSdmUvc3.png
+12:50:29	Warning: 	HTML file (54 bytes) retransferred due to lack of cache: https://www.beardo.in/apis/userapi/googlesignin.php
+12:50:42	Warning: 	HTML file (52385 bytes) retransferred due to lack of cache: https://www.beardo.in/concerns/POST
+12:50:47	Warning: 	HTML file (80 bytes) retransferred due to lack of cache: https://www.beardo.in/apis/contactapi/contact.php
+12:50:48	Warning: 	HTML file (693910 bytes) retransferred due to lack of cache: https://www.beardo.in/a-mustache-have-this-season
+12:51:01	Warning: 	HTML file (429724 bytes) retransferred due to lack of cache: https://www.beardo.in/hold-your-hair-like-a-true-beardo
+12:51:07	Warning: 	HTML file (741051 bytes) retransferred due to lack of cache: https://www.beardo.in/beard-trends-to-rock-2019
+12:51:14	Warning: 	HTML file (426553 bytes) retransferred due to lack of cache: https://www.beardo.in/its-time-to-hit-the-neem-regime
+12:51:19	Warning: 	HTML file (648097 bytes) retransferred due to lack of cache: https://www.beardo.in/dos-and-donts-for-a-beardo-in-summer
+12:51:24	Warning: 	HTML file (594389 bytes) retransferred due to lack of cache: https://www.beardo.in/say-no-to-dark-circles
+12:51:38	Warning: 	HTML file (620998 bytes) retransferred due to lack of cache: https://www.beardo.in/how-to-lighten-mens-dark-smoker-lips
+12:51:46	Warning: 	HTML file (128146 bytes) retransferred due to lack of cache: https://www.beardo.in/be-dirty-at-the-right-places
+12:51:52	Warning: 	HTML file (160359 bytes) retransferred due to lack of cache: https://www.beardo.in/a-chappy-needs-to-be-smooth-to-score
+12:51:55	Warning: 	HTML file (183910 bytes) retransferred due to lack of cache: https://www.beardo.in/aloe-your-skin-beard-and-hair-to-become-awesome
+12:52:04	Warning: 	HTML file (231297 bytes) retransferred due to lack of cache: https://www.beardo.in/this-year-standout-to-be-a-true-beardo
+12:52:08	Warning: 	HTML file (224994 bytes) retransferred due to lack of cache: https://www.beardo.in/whyfeardotheresbeardo
+12:52:11	Warning: 	HTML file (283881 bytes) retransferred due to lack of cache: https://www.beardo.in/ace-the-ultimate-beard-game-like-a-man
+12:52:23	Warning: 	HTML file (151705 bytes) retransferred due to lack of cache: https://www.beardo.in/5-reasons-for-you-to-dump-the-razor-this-grovember
+12:52:25	Warning: 	HTML file (1022685 bytes) retransferred due to lack of cache: https://www.beardo.in/the-c-shot-is-the-sure-shot
+12:52:38	Warning: 	HTML file (180374 bytes) retransferred due to lack of cache: https://www.beardo.in/be-the-mane-attraction-with-beardo-keratin-shampoo
+12:52:41	Warning: 	HTML file (906389 bytes) retransferred due to lack of cache: https://www.beardo.in/peels-like-we-made-it
+12:52:49	Warning: 	HTML file (850015 bytes) retransferred due to lack of cache: https://www.beardo.in/beardos-be-trippin
+12:53:16	Warning: 	HTML file (369713 bytes) retransferred due to lack of cache: https://www.beardo.in/sun-is-out-skin-is-in
+12:53:36	Warning: 	HTML file (750751 bytes) retransferred due to lack of cache: https://www.beardo.in/whats-the-deal-with-black-magic
+12:53:42	Warning: 	HTML file (438003 bytes) retransferred due to lack of cache: https://www.beardo.in/how-to-keep-the-girl
+12:53:46	Warning: 	HTML file (1664908 bytes) retransferred due to lack of cache: https://www.beardo.in/a-very-beardo-valentines
+12:53:57	Warning: 	HTML file (1154441 bytes) retransferred due to lack of cache: https://www.beardo.in/askthebeardo-vol-2
+12:54:06	Warning: 	HTML file (9444128 bytes) retransferred due to lack of cache: https://www.beardo.in/2018-year-of-beards
+12:57:10	Warning: 	HTML file (2042708 bytes) retransferred due to lack of cache: https://www.beardo.in/talk-to-the-hair
+13:00:37	Warning: 	HTML file (3407299 bytes) retransferred due to lack of cache: https://www.beardo.in/askthebeardo-vol-1
+13:01:29	Warning: 	HTML file (157516 bytes) retransferred due to lack of cache: https://www.beardo.in/the-side-effects-of-beard-oils
+13:01:33	Warning: 	HTML file (191390 bytes) retransferred due to lack of cache: https://www.beardo.in/the-beardo-wintersquad
+13:01:36	Warning: 	HTML file (27056 bytes) retransferred due to lack of cache: https://www.beardo.in/why-your-beard-is-your-wingman
+13:01:38	Warning: 	HTML file (27216 bytes) retransferred due to lack of cache: https://www.beardo.in/a-world-without-razors-a-world-with-men
+13:01:41	Warning: 	HTML file (284105 bytes) retransferred due to lack of cache: https://www.beardo.in/the-one-thing-in-your-morning-routine-you-dont-need
+13:01:47	Warning: 	HTML file (25565 bytes) retransferred due to lack of cache: https://www.beardo.in/suchabeardo-indias-1st-beard-anthem
+13:01:48	Warning: 	HTML file (31041 bytes) retransferred due to lack of cache: https://www.beardo.in/5-situations-question-deserve-beard
+13:01:50	Warning: 	HTML file (32790 bytes) retransferred due to lack of cache: https://www.beardo.in/what-your-beard-says-about-you-2
+13:01:52	Warning: 	HTML file (33951 bytes) retransferred due to lack of cache: https://www.beardo.in/10-amazing-bearded-warriors-time
+13:01:53	Warning: 	HTML file (41213 bytes) retransferred due to lack of cache: https://www.beardo.in/10-beard-styles-try-world-beard-day
+13:01:55	Warning: 	HTML file (29881 bytes) retransferred due to lack of cache: https://www.beardo.in/10-transformations-prove-growing-beard-can-change-life
+13:01:57	Warning: 	HTML file (32462 bytes) retransferred due to lack of cache: https://www.beardo.in/z-beard-maintenance-part-1
+13:02:01	Warning: 	HTML file (28433 bytes) retransferred due to lack of cache: https://www.beardo.in/grabbed-mens-grooming-beard
+13:02:03	Warning: 	HTML file (32447 bytes) retransferred due to lack of cache: https://www.beardo.in/bearded-gentlemans-guide-flirting
+13:02:06	Warning: 	HTML file (30547 bytes) retransferred due to lack of cache: https://www.beardo.in/top-7-ways-youre-probably-destroying-beard
+13:02:07	Warning: 	HTML file (28662 bytes) retransferred due to lack of cache: https://www.beardo.in/funny-men-get-swept-beardo-wave
+13:02:09	Warning: 	HTML file (30110 bytes) retransferred due to lack of cache: https://www.beardo.in/beard-5-beard-products-must-buy-right-now
+13:02:11	Warning: 	HTML file (30908 bytes) retransferred due to lack of cache: https://www.beardo.in/deal-beard-acne
+13:02:14	Warning: 	HTML file (32675 bytes) retransferred due to lack of cache: https://www.beardo.in/ultimate-diy-beard-care-kit
+13:02:16	Warning: 	HTML file (34834 bytes) retransferred due to lack of cache: https://www.beardo.in/10-simple-ways-prevent-hair-fall
+13:02:19	Warning: 	HTML file (29846 bytes) retransferred due to lack of cache: https://www.beardo.in/top-5-beard-washing-mistakes-avoid
+13:02:21	Warning: 	HTML file (32631 bytes) retransferred due to lack of cache: https://www.beardo.in/7-superfoods-eat-beard-growth
+13:02:22	Warning: 	HTML file (31532 bytes) retransferred due to lack of cache: https://www.beardo.in/5-cardinal-beard-sins-avoid
+13:02:24	Warning: 	HTML file (32926 bytes) retransferred due to lack of cache: https://www.beardo.in/top-10-bearded-characters-cinema
+13:02:26	Warning: 	HTML file (32453 bytes) retransferred due to lack of cache: https://www.beardo.in/10-things-bearded-man-will-relate
+13:02:28	Warning: 	HTML file (31954 bytes) retransferred due to lack of cache: https://www.beardo.in/celebrity-beard-transformations-prove-beards-improve-game
+13:02:31	Warning: 	HTML file (30288 bytes) retransferred due to lack of cache: https://www.beardo.in/ultimate-guide-summer-proofing-beard
+13:02:34	Warning: 	HTML file (31066 bytes) retransferred due to lack of cache: https://www.beardo.in/bearded-men-make-better-lovers
+13:02:35	Warning: 	HTML file (31974 bytes) retransferred due to lack of cache: https://www.beardo.in/moochein-ho-toh-papa-jaisi-ho-warna-na-ho
+13:02:37	Warning: 	HTML file (32428 bytes) retransferred due to lack of cache: https://www.beardo.in/10-modern-day-cricketers-with-beards
+13:02:39	Warning: 	HTML file (31853 bytes) retransferred due to lack of cache: https://www.beardo.in/what-your-beard-says-about-you
+13:02:51	Warning: 	HTML file (30395 bytes) retransferred due to lack of cache: https://www.beardo.in/10-reasons-to-date-a-bearded-guy
+13:03:00	Warning: 	HTML file (32551 bytes) retransferred due to lack of cache: https://www.beardo.in/6-must-have-summer-grooming-essentials-for-men
+13:03:07	Warning: 	HTML file (30121 bytes) retransferred due to lack of cache: https://www.beardo.in/how-to-floor-her-with-your-facial-fuzz-this-valentines-day
+13:03:08	Warning: 	HTML file (31087 bytes) retransferred due to lack of cache: https://www.beardo.in/8-beard-myths-debunked
+13:03:10	Warning: 	HTML file (33124 bytes) retransferred due to lack of cache: https://www.beardo.in/the-most-delicious-beards-of-2015
+13:03:22	Warning: 	HTML file (30674 bytes) retransferred due to lack of cache: https://www.beardo.in/5-scientific-reasons-to-keep-growing-your-beard
+13:03:23	Warning: 	HTML file (32716 bytes) retransferred due to lack of cache: https://www.beardo.in/the-ultimate-guide-to-beard-styles
+13:03:25	Warning: 	HTML file (27283 bytes) retransferred due to lack of cache: https://www.beardo.in/support-our-petition-to-get-a-beard-emoji
+13:03:26	Warning: 	HTML file (26087 bytes) retransferred due to lack of cache: https://www.beardo.in/the-12-beards-of-christmas
+13:03:28	Warning: 	HTML file (30218 bytes) retransferred due to lack of cache: https://www.beardo.in/3-step-beard-grooming-routine
+13:03:51	Warning: 	HTML file (33381 bytes) retransferred due to lack of cache: https://www.beardo.in/beards-and-the-icons-that-rocked-them
+13:03:54	Warning: 	HTML file (80 bytes) retransferred due to lack of cache: https://www.beardo.in/apis/userapi/login.php
+13:03:56	Warning: 	HTML file (58 bytes) retransferred due to lack of cache: https://www.beardo.in/apis/cartapi/updatepersonalize.php
+13:04:14	Warning: 	HTML file (68310 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard/8906084790948-100ml
+13:20:47	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard/8906084790948-100ml (from https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard)
+13:20:47	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/POST
+13:20:57	Warning: 	HTML file (68310 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard/8906084790948-100ml
+13:21:07	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.beardo.in/oil/POST (from https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard)
+13:21:07	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/fragrance/POST
+13:21:17	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/POST
+13:21:27	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.beardo.in/fragrance/POST (from https://www.beardo.in/fragrance/beardo-dark-side-perfume-for-men)
+13:21:27	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/hair/POST
+13:21:37	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/fragrance/POST
+13:21:39	Error: 	"Not Found" (404) at link https://www.beardo.in/hair/POST (from https://www.beardo.in/hair/beardo-hair-fall-control-kit-shampoo-serum-growth-oil)
+13:21:39	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/POST
+13:21:41	Error: 	"Not Found" (404) at link https://www.beardo.in/skin/POST (from https://www.beardo.in/skin/beardo-lip-lightner-for-men)
+13:21:41	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/wax/POST
+13:21:46	Error: 	"Not Found" (404) at link https://www.beardo.in/wax/POST (from https://www.beardo.in/wax/beardo-beard-mustache-wax-extra-strong)
+13:21:46	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/wax/beardo-beard-mustache-wax
+13:21:52	Error: 	"Not Found" (404) at link https://www.beardo.in/wax/beardo-beard-mustache-wax (from https://www.beardo.in/oil/beardo-mustache-growth-roll-on)
+13:21:52	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/beard/POST
+13:21:53	Error: 	"Not Found" (404) at link https://www.beardo.in/beard/POST (from https://www.beardo.in/beard/beardo-beard-softener-for-men)
+13:21:53	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/wash/POST
+13:21:55	Error: 	"Not Found" (404) at link https://www.beardo.in/wash/POST (from https://www.beardo.in/wash/beardo-godfather-beard-wash)
+13:21:55	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/balm/beardo-beard-balm
+13:21:58	Error: 	"Not Found" (404) at link https://www.beardo.in/balm/beardo-beard-balm (from https://www.beardo.in/wax/berado-mustache-beard-wax-stick)
+13:21:58	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/serum/POST
+13:22:02	Error: 	"Not Found" (404) at link https://www.beardo.in/serum/POST (from https://www.beardo.in/serum/beardo-hair-serum)
+13:22:02	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/shampoo/POST
+13:39:23	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.beardo.in/shampoo/POST (from https://www.beardo.in/shampoo/beardo-shampoo)
+13:39:23	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/tools/POST
+13:39:29	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/shampoo/POST
+13:39:32	Error: 	"Not Found" (404) at link https://www.beardo.in/tools/POST (from https://www.beardo.in/tools/berado-sheesham-wooden-comb)
+13:39:32	Warning: 	HTML file (61637 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-activated-charcoal-face-scrub/8906084791105-200g
+13:39:35	Warning: 	HTML file (61959 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-de-tan-facewash-for-men/8906084790955-100ml
+13:39:42	Error: 	"" (404) at link https://www.beardo.in/gift/POST (from https://www.beardo.in/gift/beardo-traveller-pouch)
+13:39:42	Warning: 	HTML file (58739 bytes) retransferred due to lack of cache: https://www.beardo.in/gift/beardo-t-shirt/8906084791020-s
+13:39:46	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/tools/beardo-neem-wooden-comb
+13:39:48	Error: 	"Not Found" (404) at link https://www.beardo.in/tools/beardo-neem-wooden-comb (from https://www.beardo.in/tools/bib)
+13:39:48	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://www.facebook.com/tr?id=1123583460985649&ev=PageView&noscript=1 (from https://www.beardo.in/)
+13:39:48	Error: 	"" (404) at link https://www.beardo.in/balm/POST (from https://www.beardo.in/balm/beardo-choco-mint-lip-balm)
+13:39:48	Warning: 	HTML file (66566 bytes) retransferred due to lack of cache: https://www.beardo.in/lotion/beardo-ultraglow-all-in-1-mens-face-lotion/8906084791013-2-unit
+13:39:50	Error: 	"" (404) at link https://www.beardo.in/facewash/POST (from https://www.beardo.in/facewash/activated-charcoal-facewash)
+13:39:50	Warning: 	HTML file (65268 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-caffeine-face-scrub/8906084791112-200g
+13:39:58	Warning: 	HTML file (62889 bytes) retransferred due to lack of cache: https://www.beardo.in/soap/beardo-activated-charcoal-brick/0034-125-gm
+13:40:02	Warning: 	HTML file (62573 bytes) retransferred due to lack of cache: https://www.beardo.in/soap/beardo-deep-sea-brick-soap/0035-125-gm
+13:40:03	Warning: 	HTML file (64433 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-old-fashioned-hair-oil/0004-10-ml
+13:40:09	Warning: 	HTML file (64488 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-irish-royale-hair-oil/8906084790184--10-ml
+13:40:17	Warning: 	HTML file (65230 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-black-velvette-hair-oil/0007-10-ml
+13:40:19	Warning: 	HTML file (64538 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-classic-hair-oil/0001-10-ml
+13:40:29	Warning: 	HTML file (59141 bytes) retransferred due to lack of cache: https://www.beardo.in/categories/beard/POST
+13:40:34	Error: 	"Not Found" (404) at link https://www.beardo.in/wp-content/uploads/2017/10/AUD-20171002-WA0012.mp3 (from https://www.beardo.in/suchabeardo-indias-1st-beard-anthem)
+13:40:34	Error: 	"Forbidden" (403) at link www.antidandruff.net/wp-content/uploads/2014/02/Dry-or-oily-dandruff.jpg (from https://www.beardo.in/5-situations-question-deserve-beard)
+13:40:34	Error: 	"Forbidden" (403) at link www.marquisoffashion.com/wp-content/uploads/2015/02/bad-beards2.jpg (from https://www.beardo.in/5-situations-question-deserve-beard)
+13:40:34	Error: 	"Forbidden" (403) at link https://clothes-make-the-man.com/wp-content/uploads/2015/11/image9.jpg (from https://www.beardo.in/5-situations-question-deserve-beard)
+13:40:53	Warning: 	Retry after error -2 (Receive Time Out) at link cdn2.list25.com/wp-content/uploads/2014/10/Alaric-the-Visigoth-610x386.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:41:01	Warning: 	Retry after error -5 (Unable to get server's address: Name or service not known) at link https://upload.wikimedia.org/wikipedia/commons/9/93/Siege-alesia-vercingetorix-jules-cesar.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:41:02	Warning: 	Retry after error -5 (Unable to get server's address: Name or service not known) at link fadquip.com/wp-content/uploads/2016/08/Cover.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:41:02	Warning: 	Retry after error -2 (Receive Time Out) at link cdn.history.com/sites/2/2014/01/leonidas-statue.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:41:03	Error: 	"Too Many Requests" (429) at link shortbiography.org/wp-content/uploads/2014/06/Hannibal.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:41:03	Warning: 	HTML file (982 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-mustache-beard-wax-stick/
+13:41:13	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-mustache-beard-wax-stick/
+13:41:13	Warning: 	File has moved from https://www.beardo.in/product/beardo-mustache-beard-wax-stick/ to https://www.beardo.in/wax/berado-mustache-beard-wax-stick?q=product/beardo-mustache-beard-wax-stick/
+13:41:13	Warning: 	HTML file (962 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-beard-mustache-wax-50g/
+13:41:19	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-mustache-wax-50g/
+13:41:19	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-mustache-wax-50g/ to https://www.beardo.in/wax/beardo-beard-mustache-wax?q=product/beardo-beard-mustache-wax-50g/
+13:41:19	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.beardo.in/wp-content/uploads/2017/08/Full-Beard-2.jpg (from https://www.beardo.in/10-beard-styles-try-world-beard-day)
+13:41:19	Warning: 	HTML file (911 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-beard-hair-growth-oil-50ml/
+13:41:22	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-hair-growth-oil-50ml/
+13:41:22	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-hair-growth-oil-50ml/ to https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard
+13:41:22	Warning: 	HTML file (1004 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-beard-shaping-and-styling-tool-comb/
+13:41:29	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-shaping-and-styling-tool-comb/
+13:41:29	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-shaping-and-styling-tool-comb/ to https://www.beardo.in/tools/beard-shaping-tool?q=product/beardo-beard-shaping-and-styling-tool-comb/
+13:41:29	Error: 	"Not Found" (404) at link https://funnybaldandbeardy.files.wordpress.com/2015/09/rn2mv.jpg (from https://www.beardo.in/top-7-ways-youre-probably-destroying-beard)
+13:41:29	Warning: 	HTML file (1164 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/
+13:41:32	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/
+13:41:32	Warning: 	File has moved from https://www.beardo.in/product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/ to https://www.beardo.in/facewash/activated-charcoal-facewash?q=product/beardo-activated-charcoal-acne-oil-pollution-control-face-wash-100-ml-pack-2/
+13:41:32	Warning: 	Retry after error -2 (Receive Time Out) at link i.imgur.com/asBwLvu.gif (from https://www.beardo.in/deal-beard-acne)
+13:41:32	Warning: 	HTML file (988 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-beard-wash-100-ml-the-classic/
+13:41:34	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-beard-wash-100-ml-the-classic/
+13:41:34	Warning: 	File has moved from https://www.beardo.in/product/beardo-beard-wash-100-ml-the-classic/ to https://www.beardo.in/wash/beardo-the-classic-wash?q=product/beardo-beard-wash-100-ml-the-classic/
+13:41:34	Warning: 	HTML file (1040 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-the-black-velvette-fragrance-hair-oil/
+13:41:35	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-the-black-velvette-fragrance-hair-oil/
+13:41:35	Warning: 	File has moved from https://www.beardo.in/product/beardo-the-black-velvette-fragrance-hair-oil/ to https://www.beardo.in/oil/beardo-the-black-velvette-hair-oil?q=product/beardo-the-black-velvette-fragrance-hair-oil/
+13:43:00	Warning: 	HTML file (946 bytes) retransferred due to lack of cache: https://www.beardo.in/product/beardo-holiday-gift-set/
+13:43:03	Warning: 	Moved Permanently for https://www.beardo.in/product/beardo-holiday-gift-set/
+13:43:03	Warning: 	File has moved from https://www.beardo.in/product/beardo-holiday-gift-set/ to https://www.beardo.in/beard/holiday-gift-set-wooden-box?q=product/beardo-holiday-gift-set/
+13:43:03	Warning: 	Moved Permanently for www.beardo.in/wp-content/uploads/2016/06/Neil-Patrick-Harris-in-Neil-Patrick-Harris-Amanda-Seyfried-Charlize-Theron-and-Seth-Macfarlane-in-first-look-from-A-Million-Ways-To-Die-In-The-West.jpg
+13:43:03	Warning: 	Warning moved treated for www.beardo.in/wp-content/uploads/2016/06/Neil-Patrick-Harris-in-Neil-Patrick-Harris-Amanda-Seyfried-Charlize-Theron-and-Seth-Macfarlane-in-first-look-from-A-Million-Ways-To-Die-In-The-West.jpg (real one is https://www.beardo.in:443/wp-content/uploads/2016/06/Neil-Patrick-Harris-in-Neil-Patrick-Harris-Amanda-Seyfried-Charlize-Theron-and-Seth-Macfarlane-in-first-look-from-A-Million-Ways-To-Die-In-The-West.jpg)
+13:43:07	Warning: 	Retry after error -2 (Receive Time Out) at link i.giphy.com/gUKfX2sMPy7Ek.gif (from https://www.beardo.in/10-reasons-to-date-a-bearded-guy)
+13:45:17	Warning: 	Retry after error -2 (Receive Time Out) at link i.giphy.com/14vxcRZWhmBWJq.gif (from https://www.beardo.in/10-reasons-to-date-a-bearded-guy)
+13:45:17	Warning: 	HTML file (866 bytes) retransferred due to lack of cache: www.beardo.in/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/
+13:45:18	Warning: 	Moved Permanently for www.beardo.in/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/
+13:45:18	Warning: 	File has moved from www.beardo.in/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/ to https://www.beardo.in:443/product/beardo-ultraglow-all-in-1-mens-face-lotion-100g/
+13:45:18	Warning: 	HTML file (922 bytes) retransferred due to lack of cache: www.beardo.in/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/
+13:45:24	Warning: 	Moved Permanently for www.beardo.in/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/
+13:45:24	Warning: 	File has moved from www.beardo.in/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/ to https://www.beardo.in:443/product/beardo-chilled-out-nourishing-mens-face-wash-for-dryness-100g/
+13:45:24	Warning: 	HTML file (906 bytes) retransferred due to lack of cache: www.beardo.in/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/
+13:45:32	Warning: 	Moved Permanently for www.beardo.in/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/
+13:45:32	Warning: 	File has moved from www.beardo.in/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/ to https://www.beardo.in:443/product/beardo-too-hot-refreshing-mens-face-wash-for-summers-100g/
+13:45:32	Warning: 	HTML file (782 bytes) retransferred due to lack of cache: www.beardo.in/product-category/beards/beard-wash/
+13:45:33	Warning: 	Moved Permanently for www.beardo.in/product-category/beards/beard-wash/
+13:45:33	Warning: 	File has moved from www.beardo.in/product-category/beards/beard-wash/ to https://www.beardo.in:443/product-category/beards/beard-wash/
+13:45:46	Warning: 	HTML file (902 bytes) retransferred due to lack of cache: www.beardo.in/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/
+13:45:47	Warning: 	Moved Permanently for www.beardo.in/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/
+13:45:47	Warning: 	File has moved from www.beardo.in/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/ to https://www.beardo.in:443/product/beardo-the-classic-beard-oil-30ml-beard-wash-combo-100ml/
+13:45:47	Error: 	"Not Found" (404) at link https://livebearded.com/wp-content/uploads/2015/11/beards-business-1.jpg (from https://www.beardo.in/8-beard-myths-debunked)
+13:45:47	Warning: 	HTML file (66 bytes) retransferred due to lack of cache: https://www.beardo.in/apis/userapi/updateprofile.php
+13:45:50	Warning: 	HTML file (62358 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-de-tan-facewash-for-men/POST
+13:47:50	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.beardo.in/skin/beardo-de-tan-facewash-for-men/POST (from https://www.beardo.in/skin/beardo-de-tan-facewash-for-men/8906084790955-100ml)
+13:47:50	Warning: 	HTML file (59146 bytes) retransferred due to lack of cache: https://www.beardo.in/gift/beardo-t-shirt/POST
+13:47:51	Warning: 	HTML file (62358 bytes) retransferred due to lack of cache: https://www.beardo.in/skin/beardo-de-tan-facewash-for-men/POST
+13:47:57	Warning: 	HTML file (63304 bytes) retransferred due to lack of cache: https://www.beardo.in/soap/beardo-activated-charcoal-brick/POST
+13:48:07	Warning: 	HTML file (62988 bytes) retransferred due to lack of cache: https://www.beardo.in/soap/beardo-deep-sea-brick-soap/POST
+13:48:11	Warning: 	HTML file (64850 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-the-old-fashioned-hair-oil/POST
+13:48:26	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://www.facebook.com/tr?id=1123583460985649&ev=PageView&noscript=1 (from https://www.beardo.in/)
+13:48:26	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 18809 expected)) at link https://www.beardo.in/css/A.style.min.css+header.min.css+owl.carousel.min.css+owl.theme.default.min.css,Mcc.qBxRHHHQnH.css.pagespeed.cf.3tRY0_IoX3.css (from https://www.beardo.in/categories)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/qevents/main.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/third_party/sjcl.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/polyfills/string.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/polyfills/array.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/polyfills/function.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/polyfills/object.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/polyfills/date.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/qevents/pixel.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/qevents/queue.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/Class.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/email_normalizer.js (from https://a.quora.com/qevents.js)
+13:48:26	Error: 	"Not Found" (404) at link https://www.beardo.in/shared/hash_email.js (from https://a.quora.com/qevents.js)
+13:48:26	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard/8906084790948-100ml (from https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard)
+13:48:26	Warning: 	HTML file (68310 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard/8906084790948-100ml
+13:48:26	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.beardo.in/oil/POST (from https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard)
+13:48:26	Warning: 	HTML file (18313 bytes) retransferred due to lack of cache: https://www.beardo.in/oil/POST
+13:48:29	Error: 	"Not Found" (404) at link https://www.beardo.in/fragrance/POST (from https://www.beardo.in/fragrance/beardo-dark-side-perfume-for-men)
+13:48:29	Error: 	"Not Found" (404) at link https://www.beardo.in/shampoo/POST (from https://www.beardo.in/shampoo/beardo-shampoo)
+13:48:36	Error: 	"Forbidden" (403) at link c.parkingcrew.net/scripts/sale_form.js (from modern-hairstyles.net/wp-content/uploads/2016/01/Handlebar-Mustache-with-slicked-back-hair-2016.jpg)
+13:48:36	Warning: 	Retry after error -2 (Receive Time Out) at link cdn2.list25.com/wp-content/uploads/2014/10/Alaric-the-Visigoth-610x386.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:48:40	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://upload.wikimedia.org/wikipedia/commons/9/93/Siege-alesia-vercingetorix-jules-cesar.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:48:40	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fadquip.com/wp-content/uploads/2016/08/Cover.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:48:40	Warning: 	Retry after error -2 (Receive Time Out) at link cdn.history.com/sites/2/2014/01/leonidas-statue.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:48:42	Warning: 	Retry after error -2 (Receive Time Out) at link i.imgur.com/asBwLvu.gif (from https://www.beardo.in/deal-beard-acne)
+13:49:21	Warning: 	Retry after error -2 (Receive Time Out) at link i.giphy.com/gUKfX2sMPy7Ek.gif (from https://www.beardo.in/10-reasons-to-date-a-bearded-guy)
+13:50:39	Warning: 	Retry after error -2 (Receive Time Out) at link i.giphy.com/14vxcRZWhmBWJq.gif (from https://www.beardo.in/10-reasons-to-date-a-bearded-guy)
+13:51:21	Error: 	"Not Found" (404) at link https://www.beardo.in/oil/POST (from https://www.beardo.in/oil/beardo-beard-hair-growth-oil-for-full-beard)
+13:51:21	Error: 	"Receive Time Out" (-2) after 2 retries at link cdn2.list25.com/wp-content/uploads/2014/10/Alaric-the-Visigoth-610x386.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:51:21	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://upload.wikimedia.org/wikipedia/commons/9/93/Siege-alesia-vercingetorix-jules-cesar.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:51:21	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fadquip.com/wp-content/uploads/2016/08/Cover.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link cdn.history.com/sites/2/2014/01/leonidas-statue.jpg (from https://www.beardo.in/10-amazing-bearded-warriors-time)
+13:52:30	Error: 	"Receive Time Out" (-2) after 2 retries at link i.imgur.com/asBwLvu.gif (from https://www.beardo.in/deal-beard-acne)
+13:53:13	Error: 	"Receive Time Out" (-2) after 2 retries at link i.giphy.com/gUKfX2sMPy7Ek.gif (from https://www.beardo.in/10-reasons-to-date-a-bearded-guy)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 hours 7 minutes 59 seconds : 1320 links scanned, 1437 files written (129946026 bytes overall) [105295545 bytes received at 9335 bytes/sec], 46899416 bytes transferred using HTTP compression in 597 files, ratio 52%, 1.7 requests per connection
+(75 errors, 401 warnings, 0 messages)
