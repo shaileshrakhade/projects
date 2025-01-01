@@ -1,0 +1,14 @@
+create database carrent;
+use carrent;
+
+create table carsinfo (id int auto_increment primary key ,uid varchar(10), vihiclename varchar(30),engine varchar(20), fule varchar(10),mileage varchar(10),passing varchar(10),seats varchar(5),yearpurchase varchar(10),color varchar(20),aboutdriver varchar(50),otherdetail varchar(50),price_non_ac varchar(10),price_ac varchar(10));
+
+
+
+create table customer (id int auto_increment primary key,fname varchar(30),mname varchar(30),sname varchar(30),uid varchar(30),pass varchar(30),email varchar(30),mobile varchar(12),address varchar(30),state varchar(20),district varchar(20),specification varchar(20),dob varchar(20),country varchar(20));
+
+
+
+create table allditrict(id int auto_increment primary key,district varchar(50));
+
+create table allcars(id int auto_increment primary key,carname varchar(50));

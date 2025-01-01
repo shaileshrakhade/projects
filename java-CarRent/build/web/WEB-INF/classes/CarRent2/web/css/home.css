@@ -1,0 +1,180 @@
+
+
+    
+#home{
+    background-color: red;
+   height: 60px;
+     padding: 70px 20px 22px 20px;
+   
+}
+
+#newsfield
+{
+   margin:200px;
+    margin: 5px;
+    width: 20%;
+    height: 300px;
+   margin-left: 2%;
+  text-align: center;
+   background: rgba(0,0,0,0.007);
+  font-size: 40px;
+  margin-top: 50px;
+   box-shadow: 5px 1px 25px rgba(0,0,0,0.6);
+   border-radius: 10px;
+}
+#contentname
+{
+     margin-top: -360px;
+    margin-left: 0%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+#content
+{
+margin-top: -30px;
+text-align: center;
+
+    margin-left: 30%;
+    width: 40%;
+    height: 250px;
+    
+  text-align: center;
+   background: rgba(0,0,0,0.1);
+  font-size: 40px;
+
+   box-shadow: 5px 1px 25px rgba(0,0,0,0.6);
+   border-radius: 15px;
+ 
+}
+#content img{
+    width: 500px;
+    height: 200px;
+     margin: 20px;
+     border-radius: 15px;
+     box-shadow: 5px 1px 25px rgba(0,0,0,0.6);
+}
+#dropdown
+{
+    
+    font-size: 20px;
+    
+}
+#dropdown table
+{
+    margin-top: 5%;
+   margin-left:30px; 
+   
+}
+#dropdown td{
+    padding-left:0px;
+
+}
+#dropdown tr
+{
+ 
+    color: red;
+    font-size: 25px;
+   
+}
+#dropdown input[type=submit] 
+{
+    margin-top: 20px;
+    margin-left:30px;
+    font-size: 25px;
+     height: 50px;
+    width: 100px;
+      border-radius: 7px;
+      cursor: pointer;
+    text-decoration: none;
+}
+#dropdown input[type=submit]:hover
+{
+    color: white;
+    background-color: black;
+}
+select
+{  
+   margin: 10px;
+   
+   margin-left: 0%;
+  border-radius: 10px;
+    color: black;
+    font-size: 20px;
+     height: 35px;
+    width: 160px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+#extra
+{
+  
+    
+    width: 20%;
+    height: 300px;
+  text-align:  center;
+   background: rgba(0,0,0,0.007);
+  font-size: 40px;
+    margin-left: 78%;
+   box-shadow: 5px 1px 25px rgba(0,0,0,0.6);
+   border-radius: 10px;
+   margin-top:-40%;
+}
+#data
+{
+     
+   width: 70%;
+   height:80%;
+  text-align:  center;
+   background: rgba(0,0,0,0.007);
+  margin: 20px;
+  margin-top: 1%;
+    margin-left: 22%;
+   box-shadow: 5px 1px 25px rgba(0,0,0,0.6);
+   border-radius: 10px;
+  
+}
+
+#contenttable #tbbbold td
+{
+    font-size: 20px;
+     padding: 10px;
+     height: 15px;
+     width: 30%;
+    border-style: groove;
+    font-family: cursive;
+}
+
+#contenttable td
+{
+     border-style:inset;
+     width: 40px;
+     height: 25px;
+}
+#contenttable {
+    margin-left: 80px;
+    margin: 20px;
+    width: 95%;
+    height:90%;
+    font-size: 15px;
+    border-width: 5px;
+    border-style: double;
+    
+}
+#contenttable table
+{
+    height: 100%;
+}
+#morelink{
+    margin:2%;
+    margin-left: 80%;
+}
+#morelink a{
+    font-size: 20px;
+
+    
+}

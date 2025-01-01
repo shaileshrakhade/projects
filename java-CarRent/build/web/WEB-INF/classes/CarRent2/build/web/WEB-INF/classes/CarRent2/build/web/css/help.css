@@ -1,0 +1,39 @@
+#upercontent
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#contact
+{   
+    margin-left: 70%;
+    margin-top: 1%;
+    font-size: 15px;
+}
+#contact img
+{
+    height: 30px;
+    width: 30px;
+    margin-top: 1%;
+}
+#contact a{
+    margin-left: 5%;
+   
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -20px;
+}
+#contact hr{
+   
+   margin-right: 20%;
+}
+#upercontent img
+{
+    margin-left: 10%;
+ width: 70%;
+ height: 20%;
+}
+#upercontent hr
+{
+ 
+    margin-right: 20%;
+}

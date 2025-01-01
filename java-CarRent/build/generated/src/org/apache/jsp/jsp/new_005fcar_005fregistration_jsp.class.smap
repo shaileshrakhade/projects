@@ -1,0 +1,16 @@
+SMAP
+new_005fcar_005fregistration_jsp.java
+JSP
+*S JSP
+*F
++ 0 new_car_registration.jsp
+jsp/new_car_registration.jsp
+*L
+1,20:44
+21,4:65
+24,9:69
+33:78,3
+34,156:81
+191,3:239
+193,6:242
+*E

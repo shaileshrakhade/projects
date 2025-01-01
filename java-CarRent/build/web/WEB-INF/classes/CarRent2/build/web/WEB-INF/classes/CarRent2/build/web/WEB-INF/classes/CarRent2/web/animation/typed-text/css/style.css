@@ -1,0 +1,20 @@
+
+* {
+  font-family: "Bungee Shade";
+}
+
+body {
+  
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: red;
+ 
+  font-size: 30px;
+ 
+}
+span{
+    color: orange;
+}

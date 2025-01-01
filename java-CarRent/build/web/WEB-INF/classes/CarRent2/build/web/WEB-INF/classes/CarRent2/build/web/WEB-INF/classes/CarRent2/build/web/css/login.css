@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 19, 2019, 12:38:33 PM
+    Author     : Shailesh
+*/
+
+
+.box{
+   
+   display: block;
+   display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+   
+}
+.box .close img{
+  
+    margin-left: 90%;
+    margin-top: -10px;
+    cursor: pointer;
+    
+}
+.box h1{
+   
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Algerian;
+  
+}
+
+.box .inputBox input
+{
+   
+    width: 80%;
+    padding: 10px 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom:  2px solid  white;
+    background: transparent;
+    color: white;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.box .inputBox input[type=submit]
+{
+     border-top:  2px solid  white;
+     width: 30%;
+     border-radius: 10px;
+}
+
+.box .inputBox input[type=submit]:hover
+{
+    background-color: #ff6633;
+}
+.box .inputBox label
+{
+    position: absolute; 
+   
+    margin-top: -10px;
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+
+.box a{
+   
+    font-size: 20px;
+    
+  
+}
+.box a:hover
+{
+   
+
+ color: #ff6633;
+  
+}
+.box h2:hover
+{
+      
+    
+     color: #ff6633;
+}
