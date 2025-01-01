@@ -1,0 +1,210 @@
+Install the Ionic CLI (Command Line Interface)
+npm install -g @ionic/cli
+====================
+uninstall
+npm uninstall -g ionic
+===================
+Start an App
+ionic start shop sidemenu
+myApp -name of project
+tabs -tyepe of starter (blank,tab,sidemenu)
+=====================
+Run the App
+cd myApp to -chnage the directry
+ionic serve -run the spplivstion 
+=====================
+Ionic + Angular
+npm install @ionic/angular@latest --save
+======================
+For adding Ionic to an already existing Angular project, use the Angular CLI's ng add feature.
+ng add @ionic/angular
+==============================
+Ionic + React
+npm install @ionic/react
+npm install @ionic/react-router
+========================
+CSS
+To include the necessary CSS in a React project, add the following to the root App component.
+/* Core CSS required for Ionic components to work properly */
+import '@ionic/react/css/core.css';
+
+/* Basic CSS for apps built with Ionic */
+import '@ionic/react/css/normalize.css';
+import '@ionic/react/css/structure.css';
+import '@ionic/react/css/typography.css';
+
+/* Optional CSS utils that can be commented out */
+import '@ionic/react/css/padding.css';
+import '@ionic/react/css/float-elements.css';
+import '@ionic/react/css/text-alignment.css';
+import '@ionic/react/css/text-transformation.css';
+import '@ionic/react/css/flex-utils.css';
+import '@ionic/react/css/display.css';
+
+=================================
+Ionic + Vue
+npm install @ionic/vue @ionic/vue-router
+===============================
+Install Ionic Tooling
+npm install -g @ionic/cli native-run cordova-res
+==================================
+Create an App
+ionic start photo-gallery tabs --type=angular --capacitor
+
+cd photo-gallery
+=======================
+PWA Elements
+Some Capacitor plugins, including the Camera API, provide the web-based functionality and UI via the Ionic PWA Elements library.
+
+It's a separate dependency, so install it next:
+npm install @ionic/pwa-elements
+=========================
+
+Service
+All Capacitor logic (Camera usage and other native features) will be encapsulated in a service class. Create PhotoService using the ionic generate command:
+ionic g service services/photo
+=================================
+ionic build
+-reate both the iOS and Android projects:
+ionic cap add ios
+ionic cap add android
+ionic cap copy
+ionic cap sync
+ionic cap open ios
+ionic cap open android
+ionic capacitor build android
+ionic capacitor build ios
+ionic serve --lab
+========================
+Live Reload
+ionic cap run ios -l --external
+ionic cap run android -l --external
+============================
+
+create new page 
+ionic generate page item
+
+component
+ionic generate c componant name
+
+addthis page to app.component.ts
+
+======================================================
+npm install -g @ionic/cli
+
+npm uninstall -g ionic
+npm install -g @ionic/cli
+
+ionic start e-wish sidemenu
+
+cd myApp
+ionic serve
+
+npm install @ionic/angular@latest --save
+
+ng add @ionic/angular
+
+
+
+ionic g service services/authentication
+ionic g page pages/student
+ionic g component about
+
+npm install @ionic-native/sqlite
+
+npm install @ionic-native/sqlite @ionic-native/sqlite-porter
+
+ionic cordova plugin add cordova-sqlite-storage
+
+npm install cordova-sqlite-storage
+npm  uninstall capacitor 
+ionic cordiva plugin add uk.co.workingedge.cordova.plugin.sqliteporter
+cordova 
+capacitor 
+npm uninstall capacitor 
+npm uninstall cordova 
+
+npm install -g cordova 
+npm install -g capacitor 
+
+ionic serve
+ionic cordova platform add android 
+ionic cordova platform add browser 
+ionic run android  
+ionic run browser
+ionic capacitor run android 
+ionic cordova run browser
+ionic capacitor run browser
+npm install --save-dev @ionic/lab
+
+ionic cordova plugin add codova-plugin-advanced-http
+
+sudo npm install -g corsproxy
+
+ng add @angular/material
+
+
+
+
+//build androi apk
+ionic capacitor build android --device --livereload
+ionic cordova build android --device --livereload
+ionic cordova build android
+// run on dive localy
+ionic cordova run android -l --external
+Ionic cordova run android --external--livereload
+Ionic cordova run android --device --livereload
+ ionic cordova run android --livereload-url=http://localhost:8100
+
+native api
+
+ionic g guard guards/auth protecting routs
+
+import { AuthGuard } from './guards/auth.guard';
+canActivate: [AuthGuard],
+
+
+cordowa cmd
+npm install -g cordova
+
+
+open other apks
+
+ionic cordova plugin add cordova-plugin-inappbrowser
+npm install @ionic-native/in-app-browser
+
+ check avalabl
+ionic cordova plugin add cordova-plugin-appavailability
+npm install @ionic-native/app-availability
+
+
+
+
+to release mode
+ionic cordova build android --prod --release
+
+keytool -genkey -v -keystore my-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+
+keytool -genkey -v -keystore my-key.shailesh -alias shailesh -keyalg RSA -keysize 2048 -validity 100000
+
+$ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-key.keystore platforms/android/app/build/outputs/apk/release/todoList-release-unsigned.apk alias_name
+
+$ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-key.shailesh platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk shailesh 
+
+{androidSDK-buildtools-path}/zipalign -v 4 app-release-unsigned.apk TodoTask.apk
+
+
+
+Ionic cordova platform rm android
+Ionic cordova platform add android
+ ionic cordova resources android
+
+
+android {
+ndkVersion "23.0.7123448"
+
+//imp
+chrome://inspect#devices
+
+npm install @capacitor-community/sqlite
