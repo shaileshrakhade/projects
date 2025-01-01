@@ -1,5 +1,0 @@
-D:\Project\OnlineLearningSystem\OnlineLearningSystem\bin\OnlineLearningSystem.dll
-D:\Project\OnlineLearningSystem\OnlineLearningSystem\bin\OnlineLearningSystem.pdb
-D:\Project\OnlineLearningSystem\OnlineLearningSystem\obj\Debug\OnlineLearningSystem.dll
-D:\Project\OnlineLearningSystem\OnlineLearningSystem\obj\Debug\OnlineLearningSystem.pdb
-D:\Project\OnlineLearningSystem\OnlineLearningSystem\obj\Debug\OnlineLearningSystem.csprojResolveAssemblyReference.cache
