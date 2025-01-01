@@ -43,6 +43,9 @@
         </style>
     </head>
     <body onload="spinStop()">
+    
+   
+   
         <div id="spinLoader" class="container" style=" font-size: 35px; color: olivedrab; height: 700px; margin-top: 300px;">
             <center>
                 <div class="spinner-border m-5" style=" margin-top: 300px; font-size: 35px; color: #c82333; width: 4rem; height: 4rem;" role="status">

@@ -1,15 +1,23 @@
 <%@include file="studHeader.jsp"%> 
 <%@ page import="java.sql.*" %>
+<% 
+session.setAttribute("id", 1);
+//remove  this line when project is combine temp session id 
+if(session.getAttribute("id")!=null)
+{%>
+
 <%--Please Write your code below this line!--%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Blogs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
 </head>
 <body>
 <%
@@ -42,22 +50,29 @@
   
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-5">
      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCenterBlogs">
 		Add New Blog
 	</button>
     </div>
-    <div class="col-sm-4">
-		<a class="logout btn btn-info" href="#"><i class="fa" aria-hidden="true"></i>&nbsp;My Blogs</a>
+    <div class="col-sm-5">
+		<a class="logout btn btn-info" href="../StudentBlogs/student_BlogsEdite.jsp"><i class="fa" aria-hidden="true" id="btnblogs" ></i>&nbsp;My Blogs</a>
+	
     </div>
-    <div class="col-sm-4" >   
+    <div class="col-sm-2" >   
 	 	  <div class="dropdown">
 		    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Post Type
 		    <span class="caret"></span></button>
 		    <ul class="dropdown-menu">
-		      <li><a href="?typ=html">HTML</a></li>
-		      <li><a href="#">CSS</a></li>
-		      <li><a href="#">JavaScript</a></li>
+		    <li><a href="?typ=JAVA">JAVA</a></li>
+		       <li><a href="?typ=HTML">HTML</a></li>
+		      <li><a href="?typ=CSS">CSS</a></li>
+		      <li><a href="?typ=JavaScript">JavaScript</a></li>
+		      <li><a href="?typ=SQL">SQL</a></li>
+		      <li><a href="?typ=.NET">.NET</a></li>
+		      <li><a href="?typ=Python">Python</a></li>
+		      <li><a href="?typ=Android">Android</a></li>
+		     
 		    </ul>
 	  	</div>
     </div>
@@ -72,12 +87,12 @@
 <%
 if(request.getParameter("typ")!=null)
 {
-ps=conn.prepareStatement("select * from forum where post_type like(?)");
+ps=conn.prepareStatement("select f.post_id,f.post_type,f.title,f.content,f.posted_on,f.author_id,f.updated_at,u.fname from forum f inner join user u on f.author_id =u.user_id where post_type like(?) ORDER BY f.post_id DESC,updated_at");
 ps.setString(1,request.getParameter("typ") );
 }
 else
 {
-	ps=conn.prepareStatement("select * from forum");
+	ps=conn.prepareStatement("select f.post_id,f.post_type,f.title,f.content,f.posted_on,f.author_id,f.updated_at,u.fname from forum f inner join user u on f.author_id =u.user_id ORDER BY f.post_id DESC,updated_at;");
 }
 
 System.out.println(ps);
@@ -90,8 +105,8 @@ while(rs.next())
 
 <div class="col-sm-12  " style="border-style: solid; height: 50px;padding: 10px;">
 
-<div class="col-sm-5">
-<label style="color: green;"><%=rs.getString(3) %></label>
+<div class="col-sm-6">
+<label style="color: red; font-family: cursive; font-size: large;"><%=rs.getString(3) %></label>
 
 </div>
 <div class="col-sm-2">
@@ -99,32 +114,33 @@ while(rs.next())
 <label>Post At : <%=date[0] %></label>
 
 </div>
-<div class="col-sm-3">
+<div class="col-sm-2">
 <% String[] Lastdate=rs.getString(7).split(" ");%>
-<label>Last Update : <%=Lastdate[0] %></label>
+<label>Update at: <%=Lastdate[0] %></label>
 
 </div>
-<div class="col-sm-1">
-<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalDelete">
-  Delete
-</a>
-	</div>
-<div class="col-sm-1">
-<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalUpdate">
-  Update
-</a>
+<div class="col-sm-2">
+<label >Owner : <span style="color: green;"><%=rs.getString(8) %></span> </label>
+
 </div>
+
 </div>
 <div class="col-sm-12 ">
 <br>
 <p><%=rs.getString(4) %></p>
+
+</div>
+<div class="col-sm-12 ">
+<a class="btn btn-primary" onclick="showBlogsCommnets(<%=rs.getString(1) %>)" style="width: 100%" data-toggle="modal" data-target="#exeModalComments"  >Comments</a>
+
+</div>
+
+</div>
 <hr style="background-color: red">
-</div>
-
-
-</div>
 <br>
-<%} %>
+<%}
+
+%>
 </div>
 </div>
 
@@ -154,6 +170,11 @@ while(rs.next())
 			  <option value="HTML">HTML</option>
 			  <option value="CSS">CSS</option>
 			  <option value="JavaScript">JavaScript</option>
+			  <option value="SQL">SQL</option>
+			  <option value=".NET">.NET</option>
+			  <option value="Python">Python</option>
+			  <option value="Android ">Android </option>
+			  
 			</select>
 		
         </div>
@@ -233,6 +254,11 @@ while(rs.next())
 			  <option value="HTML">HTML</option>
 			  <option value="CSS">CSS</option>
 			  <option value="JavaScript">JavaScript</option>
+			  <option value="SQL">SQL</option>
+			  <option value=".NET">.NET</option>
+			  <option value="Python">Python</option>
+			  <option value="Android ">Android </option>
+			  
 			</select>
 		
         </div>
@@ -256,45 +282,83 @@ while(rs.next())
     </div>
   </div>
 </div>
+
+
+<!-- Modal Comments -->
+
+<div class="modal fade" id="exeModalComments" tabindex="-1" role="dialog" aria-labelledby="ModalCommentsclick" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+  
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Blog Comments</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+	         
+	    <div class="col-sm-12 overflow-auto" id="CommentSection" style="height: 400px" >  
+	    
+	<!--    bind By js -->
+	    	
+	    </div>
+	    
+	    <br>
+	    <br>
+	     <form  action="../process.jsp?CommnetId=" method="post">
+	    <div class="col-sm-12 ">   	
+  	
+       
+        <input type="text" required="required" name="txtCommnet" style="width: 100%; padding: 10px; border-radius: 15px">
+    	 
+        <input type="hidden"   id="txtCommnetPostId" name="txtCommnetPostId" style="width: 100%">  
+        <input type="hidden" value="1" name="txtusertype" style="width: 100%">   
+        
+  		</div>
+  		<div class="col-sm-12 " style="padding: 5px">  
+  		</div>
+
+  		<div class="col-sm-12 "> 
+  		<input type="submit" style="width: 100%" class="btn btn-primary" value="Commnet">
+  		   
+  		</div>
+  		</form>
+	    
+	  
+      </div>
+     
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
 <%
+
+System.out.println("end Loop");
+
 			}
 			catch (SQLException sqle)
 			{
-				System.out.println(sqle);
+				System.out.println("SQL "+sqle);
 			}
 			catch (Exception e)
 			{
-				System.out.println(e);
+				System.out.println("Other "+e);
 			}
-%>
-</body>
-</html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+else
+{	
+	response.sendRedirect("/Blogs/");
+}%>
+ <script src="../Blogs.js"></script>
 <%--Please Write your code above this line!--%>
 <%@include file="studFooter.jsp"%>

@@ -27,7 +27,7 @@
 				String post_type=request.getParameter("ddlposttype");
 				String title=request.getParameter("txtTital");
 				String content=request.getParameter("txtblogContent");
-				int author_id=Integer.parseInt(session.getAttribute("id").toString());//on session 
+				int post_id=Integer.parseInt(request.getParameter("post_id").toString());//on session 
 				int usertype=Integer.parseInt(request.getParameter("txtusertype"));
 				
 				
@@ -36,25 +36,24 @@
 		            String strCurrentDate = df.format(currentDate);
 		            //System.out.println("Date is " + strCurrentDate);
 				
-				 //ps=conn.createStatement();
-				ps =conn.prepareStatement("insert into forum(post_type,title,content,posted_on,author_id,updated_at)values(?,?,?,?,?,?)");
+				//Statement st=conn.createStatement();
+				ps=conn.prepareStatement("update forum set post_type=?,title=?,content=?,updated_at=?Where post_id=?");
 				ps.setString(1, post_type);
 				ps.setString(2, title);
 				ps.setString(3, content);
 				ps.setString(4, strCurrentDate);
-				ps.setInt(5, author_id);
-				ps.setString(6, strCurrentDate);
+				ps.setInt(5, post_id);
 				int i=ps.executeUpdate();
 				if(i>0)
 				{
 					out.println("Data is successfully inserted!");
 					if(usertype==1)
 					{
-					response.sendRedirect("StudentBlogs/student_Blogs.jsp");
+					response.sendRedirect("StudentBlogs/student_BlogsEdite.jsp");
 					}
 					else if(usertype==2)						
 					{
-						response.sendRedirect("TeacherBlogs/teacher_Blogs.jsp");
+						response.sendRedirect("TeacherBlogs/student_BlogsEdite.jsp");
 					}
 					else
 					{
